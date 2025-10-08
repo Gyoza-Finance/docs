@@ -346,13 +346,13 @@
     "message": "Cada moneda estable emitida por Gyoza se puede canjear por $1 de garantía en el sistema.",
     "description": "Feature description: Redeemable"
   },
-  "feature.streamable.title": {
-    "message": "Transmitible",
-    "description": "Feature title: Streamable"
+  "feature.decentralized.title": {
+    "message": "Descentralizado",
+    "description": "Feature title: Decentralized"
   },
-  "feature.streamable.desc": {
-    "message": "gyUSD es una moneda estable supertoken de streaming construida con el protocolo Superfluid.",
-    "description": "Feature description: Streamable"
+  "feature.decentralized.desc": {
+    "message": "gyUSD está completamente descentralizado con contratos inteligentes inmutables y sin claves de administrador.",
+    "description": "Feature description: Decentralized"
   },
   "feature.sustainable.title": {
     "message": "Sostenible",

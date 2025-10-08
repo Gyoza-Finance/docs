@@ -38,7 +38,7 @@ To understand Gyoza it's helpful to understand [Liquity](https://www.liquity.org
 |--|--|
 | Immutability|ETH Mainnet (Liquity V2) only vs Arbitrum Only (Gyoza) |
 |Decentralization| **Additional Collateral:** Gyoza accepts: ETH, wstETH, rETH, rsETH, weETH, ARB, COMP, tBTC|
-|Redemption of stablecoins for underlying collateral maintains the $1.00 peg no matter what| Gyoza adds Streaming: gyUSD can be streamed at any rate using  [Superfluid](https://www.superfluid.finance/). Pay anyone every second.|
+|Redemption of stablecoins for underlying collateral maintains the $1.00 peg no matter what| Protocol revenue sharing through PIL (Protocol Incentivized Liquidity)|
 |Shared Security from Friendly Forks |ARB deposited in the protocol can be delegated by Gyoza governance.|
 ||Gyoza adds Additional security features to allow for the other features, like debt limits|
 |||\
@@ -50,7 +50,5 @@ Gyoza is subject to minimal governance which is solely tasked with distributing 
 ## Other Helpful Resources:
 
 Dune Dashboard: https://dune.com/niftyteam/nerite
-
-Supefluid gyUSD streaming dashboard: https://app.superfluid.org/
 
 

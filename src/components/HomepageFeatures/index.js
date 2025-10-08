@@ -14,11 +14,11 @@ const FeatureList = [
     ),
   },
   {
-    title: <Translate id="feature.streamable.title">Streamable</Translate>,
+    title: <Translate id="feature.decentralized.title">Decentralized</Translate>,
     Svg: require('@site/static/img/green.png').default,
     description: (
       <>
-        <Translate id="feature.streamable.desc">gyUSD is a streaming super-token stablecoin built with the Superfluid protocol.</Translate>
+        <Translate id="feature.decentralized.desc">gyUSD is fully decentralized with immutable smart contracts and no admin keys.</Translate>
       </>
     ),
   },

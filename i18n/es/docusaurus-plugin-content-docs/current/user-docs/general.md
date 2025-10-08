@@ -35,7 +35,7 @@ Para entender Gyoza, es útil comprender [Liquity](https://www.liquity.org)
 |--|--|
 | Inmutabilidad|Solo ETH Mainnet (Liquity V2) frente a solo Arbitrum (Gyoza) |
 |Descentralización| **Garantías adicionales:** sfrxETH, weETH, tETH, tBTC, COMP y ARB|
-|El rescate de monedas estables por garantías subyacentes mantiene la paridad de 1,00 $ pase lo que pase| Gyoza añade streaming: gyUSD se puede transmitir a cualquier velocidad utilizando  [Superfluid](https://www.superfluid.finance/). Paga a cualquiera cada segundo.|
+|El rescate de monedas estables por garantías subyacentes mantiene la paridad de 1,00 $ pase lo que pase| Compartir ingresos del protocolo a través de PIL (Liquidez Incentivada por Protocolo)|
 |Seguridad compartida de bifurcaciones amigables |El ARB depositado en el protocolo puede ser delegado por la gobernanza de Gyoza.|
 ||Gyoza añade características de seguridad adicionales para permitir otras características, como los límites de deuda|
 |||\
