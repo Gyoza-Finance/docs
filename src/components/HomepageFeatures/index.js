@@ -6,7 +6,7 @@ import Translate from '@docusaurus/Translate';
 const FeatureList = [
   {
     title: <Translate id="feature.redeemable.title">Redeemable</Translate>,
-    Svg: require('@site/static/img/blue.png').default,
+    logoColor: '#3B82F6', // blue
     description: (
       <>
         <Translate id="feature.redeemable.desc">Each stablecoin issued by Gyoza is redeemable for $1 of collateral in the system.</Translate>
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: <Translate id="feature.decentralized.title">Decentralized</Translate>,
-    Svg: require('@site/static/img/green.png').default,
+    logoColor: '#10B981', // green
     description: (
       <>
         <Translate id="feature.decentralized.desc">gyUSD is fully decentralized with immutable smart contracts and no admin keys.</Translate>
@@ -24,7 +24,7 @@ const FeatureList = [
   },
   {
     title: <Translate id="feature.sustainable.title">Sustainable</Translate>,
-    Svg: require('@site/static/img/red.png').default,
+    logoColor: '#EF4444', // red
     description: (
       <>
         <Translate id="feature.sustainable.desc">gyUSD yield is sustainable and comes from multiple sources. 100% of protocol revenue is directed towards users.</Translate>
@@ -33,11 +33,18 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({logoColor, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <img src={Svg} className={styles.featureSvg} role="img" />
+        <div 
+          className={styles.featureSvg}
+          style={{ 
+            backgroundColor: logoColor,
+            mask: `url(/img/logo.svg) no-repeat center / contain`,
+            WebkitMask: `url(/img/logo.svg) no-repeat center / contain`
+          }}
+        />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
