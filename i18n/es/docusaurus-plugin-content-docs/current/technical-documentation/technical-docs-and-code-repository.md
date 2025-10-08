@@ -17,16 +17,7 @@ El ReadMe también tiene más información sobre diseño y arquitectura.
 ## Cambios en las especificaciones técnicas de Gyoza desde Liquity V2
 
 ### Delegación
-`ActivePool.sol` ahora tiene la función `delegateTokens`. Cualquier token puede ser delegado al rol `delegate`. El papel puede ser actualizado por `governance`, que es el DAO de los titulares de NERI. Cualquiera puede llamar a la función de delegación de forma segura, ya que siempre delega en el papel `delegado`.
-
-### Superfluid
-Bold token (que es renombrado ), es ahora streamable via custom streaming token usando esta librería: (https://www.npmjs.com/package/@superfluid-finance/ethereum-contracts)
-
-Las funciones _mint, _burn, _transfer han sido sustituidas por selfMint, selfBurn, y selfTransfer del [superfluid supertoken](https://github.com/superfluid-finance/protocol-monorepo/blob/dev/packages/ethereum-contracts/contracts/superfluid/SuperToken.sol).
-
-BoldToken ya no es un ERC-20 por sí mismo, sino un proxy que se initaliza en un ERC-20. Muchos cambios de despliegue como resultado. Nota del desarrollador: no utilice deal() cheatcode con boldToken en las pruebas, ya que la memoria no se almacena como foundry espera.
-
-Las importaciones de ERC-20 en BoldToken se eliminan en favor del uso de UUPS proxy ERC-20 importado por superfluid. Utiliza la misma implementación ERC-20 de openzeppelin. 
+`ActivePool.sol` ahora tiene la función `delegateTokens`. Cualquier token puede ser delegado al rol `delegate`. El papel puede ser actualizado por governance. Cualquiera puede llamar a la función de delegación de forma segura, ya que siempre delega en el papel `delegado`.
 
 También remaps OZ en muchos lugares debido a las dependencias circulares. 
 

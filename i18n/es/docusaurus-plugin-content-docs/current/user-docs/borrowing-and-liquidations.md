@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ### ¿Qué hace que los préstamos en Gyoza sean tan únicos?
 
-Gyoza permite a los usuarios pedir prestada la moneda estable GYUSD en sus propios términos. Los prestatarios pueden elegir y ajustar la tasa que están dispuestos a pagar por sus préstamos. Los prestatarios pueden elegir pagar un 0 %, un 5 %, un 20 %, etc. Los prestatarios establecerán las tasas de mercado de acuerdo con su tolerancia al riesgo individual, sin depender de la gobernanza ni de la gestión algorítmica de las tasas. Cada garantía también tiene su propio mercado de préstamos, lo que permite que se desarrolle un mercado de tasas.
+Gyoza permite a los usuarios pedir prestada la moneda estable gyUSD en sus propios términos. Los prestatarios pueden elegir y ajustar la tasa que están dispuestos a pagar por sus préstamos. Los prestatarios pueden elegir pagar un 0 %, un 5 %, un 20 %, etc. Los prestatarios establecerán las tasas de mercado de acuerdo con su tolerancia al riesgo individual, sin depender de la gobernanza ni de la gestión algorítmica de las tasas. Cada garantía también tiene su propio mercado de préstamos, lo que permite que se desarrolle un mercado de tasas.
 
 Todo esto da lugar a una experiencia de préstamo altamente eficiente en términos de capital, segura y descentralizada.
 
@@ -53,7 +53,7 @@ No se pueden añadir nuevos tipos de garantías. Sin embargo, las existentes se 
 
 ### ¿Existe una deuda mínima?
 
-Sí, se requiere una deuda mínima de 500 GYUSD para poder solicitar un préstamo.
+Sí, se requiere una deuda mínima de 500 gyUSD para poder solicitar un préstamo.
 
 ### **¿Cuándo tengo que devolver mi préstamo?**
 
@@ -69,7 +69,7 @@ Como excepción, los retiros de los prestatarios se suspenden temporalmente si e
 Esto depende de tus preferencias personales, principalmente de tu tolerancia al riesgo y de la actividad con la que quieras gestionar tu(s) posición(es). Para ayudarte a tomar la decisión, encontrarás opciones preestablecidas en la interfaz de usuario que pueden servirte de guía.
 
 :::tip
-Es posible que mostremos BOLD en lugar de GYUSD en varios gráficos que hemos tomado prestados de Liquity.
+Es posible que mostremos BOLD en lugar de gyUSD en varios gráficos que hemos tomado prestados de Liquity.
 :::
 
 ![](https://docs.liquity.org/~gitbook/image?url=https%3A%2F%2F2342324437-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FE2A1Xrcj7XasxOiotWky%252Fuploads%252FKYV7j08QhkPfeWdSZCE5%252Fltv_preset.png%3Falt%3Dmedia%26token%3D98dda88c-18ee-4993-9993-ece6d9242a86&width=768&dpr=4&quality=100&sign=6093ec1&sv=2)
@@ -117,13 +117,13 @@ Para abrir un nuevo Trove, el protocolo requiere una reserva de liquidación de 
 
 En Liquity V2 no hay comisiones por adelantado. En su lugar, se pagan intereses de forma continua, lo que lo hace adecuado también para préstamos a corto plazo.
 
-Los intereses que se pagan se determinan según el tipo de interés que se establezca. Por ejemplo, si se piden prestados 10 000 GYUSD a un tipo de interés del 5 %, se pagarán unos 500 GYUSD en concepto de intereses al cabo de un año. Estos intereses se añaden a la deuda pendiente.
+Los intereses que se pagan se determinan según el tipo de interés que se establezca. Por ejemplo, si se piden prestados 10 000 gyUSD a un tipo de interés del 5 %, se pagarán unos 500 gyUSD en concepto de intereses al cabo de un año. Estos intereses se añaden a la deuda pendiente.
 
 ### ¿Qué son los tipos establecidos por el usuario?
 
-En Gyoza *y Liquity V2*, los usuarios pueden establecer sus propios tipos de interés, lo que les da un control total sobre los costes y mejora la previsibilidad. Esta característica permite adaptarse a diversas condiciones del mercado y ayuda a estabilizar la paridad del GYUSD.
+En Gyoza *y Liquity V2*, los usuarios pueden establecer sus propios tipos de interés, lo que les da un control total sobre los costes y mejora la previsibilidad. Esta característica permite adaptarse a diversas condiciones del mercado y ayuda a estabilizar la paridad del gyUSD.
 
-Los tipos de interés establecidos por el usuario facilitan un equilibrio eficiente en términos de capital entre los prestatarios y los titulares de GYUSD de una manera totalmente impulsada por el mercado. Además, estas tasas sirven como la principal fuente de ingresos para los titulares de GYUSD, generando un rendimiento real continuo y sostenible para los depositantes y proveedores de liquidez de GYUSD.
+Los tipos de interés establecidos por el usuario facilitan un equilibrio eficiente en términos de capital entre los prestatarios y los titulares de gyUSD de una manera totalmente impulsada por el mercado. Además, estas tasas sirven como la principal fuente de ingresos para los titulares de gyUSD, generando un rendimiento real continuo y sostenible para los depositantes y proveedores de liquidez de gyUSD.
 
 Los prestatarios deben establecer sus tasas en función de su tolerancia al riesgo de [rescate](/docs/user-docs/redemption-and-delegation#what-are-redemptions).
 
@@ -149,7 +149,7 @@ Puede ver la distribución de las tasas de otros usuarios en un histograma y pos
 
 ![](https://docs.liquity.org/~gitbook/image?url=https%3A%2F%2F2342324437-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FE2A1Xrcj7XasxOiotWky%252Fuploads%252FHkqGvdaJxndhC8uhzLw0%252Frerwere.png%3Falt%3Dmedia%26token%3D796599d0-6785-4cd2-ad6a-bad02d062f45&width=768&dpr=4&quality=100&sign=c26f7d49&sv=2)
 
-Los reembolsos suelen producirse cuando GYUSD cotiza por debajo de 1 dólar menos la comisión de reembolso actual. Estar atento a la [actividad de reembolso](https://dune.com/liquity/liquity-v2#redemptions) pasada puede ayudarle a evaluar el riesgo general de reembolso, lo que le servirá como dato adicional para seleccionar el tipo de interés.
+Los reembolsos suelen producirse cuando gyUSD cotiza por debajo de 1 dólar menos la comisión de reembolso actual. Estar atento a la [actividad de reembolso](https://dune.com/liquity/liquity-v2#redemptions) pasada puede ayudarle a evaluar el riesgo general de reembolso, lo que le servirá como dato adicional para seleccionar el tipo de interés.
 
 En general, aquellos que estén dispuestos a supervisar activamente sus posiciones o a pedir préstamos por periodos más cortos pueden optar por tasas más bajas. Por el contrario, los usuarios que optimicen para una posición más pasiva y a largo plazo se beneficiarán más de establecer una tasa de interés relativa más alta.
 
@@ -157,7 +157,7 @@ En general, aquellos que estén dispuestos a supervisar activamente sus posicion
 
 Estos tipos serán fijados de forma continua por el mercado y variarán con el tiempo. Esperamos que, en promedio, los tipos sean similares a los de los préstamos en Sky o Aave utilizando ETH o ETH apostado. Sin embargo, debido a la flexibilidad de los tipos fijados por los usuarios, es posible que algunos usuarios paguen tipos significativamente más bajos durante determinados periodos.
 
-Dado que el 75 % de los ingresos por intereses se paga directamente a los depositantes de GYUSD, esperamos además que los rendimientos de los depósitos de stablecoins sean comparables, si no superiores, a los que ofrecen los CDP y los mercados de préstamos de la competencia. Gracias al atractivo de GYUSD y suponiendo la aparición de casos de uso externos (prima monetaria), esto podría dar lugar a tasas de préstamo más bajas en general que las ofrecidas por otras plataformas. Obtenga más información sobre el diferencial entre prestatarios y prestamistas en nuestro [artículo](https://www.liquity.org/blog/liquity-v2-a-de-facto-reference-rate-for-defi).
+Dado que el 75 % de los ingresos por intereses se paga directamente a los depositantes de gyUSD, esperamos además que los rendimientos de los depósitos de stablecoins sean comparables, si no superiores, a los que ofrecen los CDP y los mercados de préstamos de la competencia. Gracias al atractivo de gyUSD y suponiendo la aparición de casos de uso externos (prima monetaria), esto podría dar lugar a tasas de préstamo más bajas en general que las ofrecidas por otras plataformas. Obtenga más información sobre el diferencial entre prestatarios y prestamistas en nuestro [artículo](https://www.liquity.org/blog/liquity-v2-a-de-facto-reference-rate-for-defi).
 
 ### ¿Qué determina el riesgo de mi Trove?
 
@@ -188,7 +188,7 @@ Ten en cuenta que las estrategias más avanzadas, como «vender» Troves en merc
 
 ### ¿Cómo puedo repetir mi exposición?
 
-El looping (repetición de exposición apalancada) le permite pedir prestado GYUSD contra su garantía depositada (ETH, wstETH o rETH) y utilizarlo para comprar más garantía, aumentando su exposición al subyacente. Liquity V2 viene con automatización incorporada para lograrlo con un solo clic (zappers).&#x20;
+El looping (repetición de exposición apalancada) le permite pedir prestado gyUSD contra su garantía depositada (ETH, wstETH o rETH) y utilizarlo para comprar más garantía, aumentando su exposición al subyacente. Liquity V2 viene con automatización incorporada para lograrlo con un solo clic (zappers).&#x20;
 
 Asegúrate de elegir una interfaz que admita esta funcionalidad y ten en cuenta la liquidez/deslizamiento.
 
@@ -200,15 +200,15 @@ Gyoza tendrá esos tres más las garantías adicionales mencionadas anteriorment
 
 Los riesgos se mitigan mediante restricciones temporales de préstamo en momentos de baja colateralización de un mercado determinado, una lógica de rescate que da prioridad a las garantías con menos respaldo del fondo de estabilidad y un cierre de garantías como medida de emergencia para mantener el equilibrio del sistema y protegerlo contra la inestabilidad del mercado.
 
-Hay que tener en cuenta que, a pesar de todas estas medidas, el GYUSD sigue dependiendo de los tres activos de garantía mencionados y no hay una garantía estricta de que siga estando sobrecolateralizado en caso de un colapso repentino de un activo de garantía.
+Hay que tener en cuenta que, a pesar de todas estas medidas, el gyUSD sigue dependiendo de los tres activos de garantía mencionados y no hay una garantía estricta de que siga estando sobrecolateralizado en caso de un colapso repentino de un activo de garantía.
 
 ### ¿Cómo distribuye el sistema el riesgo entre los diferentes LST? 
 
 Esto depende de la parte en cuestión:
 
 * Prestatarios: El riesgo colateral se limita al activo colateral en poder del prestatario. Un prestatario no se ve afectado negativamente por el incumplimiento de otro activo colateral.
-* Titulares de GYUSD: como moneda estable con múltiples garantías, GYUSD depende de la liquidación efectiva de los préstamos con garantía insuficiente en todos los mercados de préstamos para mantener un exceso de garantía. Los titulares están sujetos a los riesgos de todos los activos de garantía admitidos.
-* Ganadores: los depositantes del fondo de estabilidad solo están expuestos al activo que han elegido. Sin embargo, como titulares de GYUSD, se ven igualmente afectados por una posible desvinculación.
+* Titulares de gyUSD: como moneda estable con múltiples garantías, gyUSD depende de la liquidación efectiva de los préstamos con garantía insuficiente en todos los mercados de préstamos para mantener un exceso de garantía. Los titulares están sujetos a los riesgos de todos los activos de garantía admitidos.
+* Ganadores: los depositantes del fondo de estabilidad solo están expuestos al activo que han elegido. Sin embargo, como titulares de gyUSD, se ven igualmente afectados por una posible desvinculación.
 
 ### ¿Qué mecanismos se aplican si el Stability Pool está vacío?
 
@@ -216,7 +216,7 @@ Si el Stability Pool no cubre la totalidad de la deuda y se vacía por completo 
 
 El liquidador puede elegir libremente entre dos modos de liquidación de reserva para la deuda que exceda los fondos del Stability Pool:
 
-1. Liquidación justo a tiempo (JIT): el liquidador envía una cantidad de GYUSD correspondiente a la deuda (restante) a cambio del 105 % de su valor nominal en ETH (apostado).
+1. Liquidación justo a tiempo (JIT): el liquidador envía una cantidad de gyUSD correspondiente a la deuda (restante) a cambio del 105 % de su valor nominal en ETH (apostado).
 2. Redistribución: el liquidador activa una redistribución, mediante la cual toda la deuda y la garantía de Trove se redistribuyen entre todos los demás prestatarios del mercado de garantías correspondiente, en proporción a sus propias cantidades de garantía. De este modo, los respectivos prestatarios recibirán una parte de la garantía liquidada y verán aumentar sus deudas de forma proporcional.
 
 ### Cierre de los mercados de préstamos

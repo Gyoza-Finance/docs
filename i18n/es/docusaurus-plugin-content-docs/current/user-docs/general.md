@@ -6,15 +6,13 @@ sidebar_position: 1
 # General
 
 ### ¿Qué es Gyoza?
-Gyoza es un protocolo de préstamo descentralizado que permite a los usuarios depositar ETH, LST y ARB como garantía y acuñar la moneda estable GYUSD a un tipo de interés elegido por los depositantes. Gyoza es una bifurcación amigable basada en Liquity v2.
+Gyoza es un protocolo de préstamo descentralizado que permite a los usuarios depositar ETH, LST y ARB como garantía y acuñar la moneda estable gyUSD a un tipo de interés elegido por los depositantes. Gyoza es una bifurcación amigable basada en Liquity v2.
 
 ### Los principales casos de uso de Gyoza son:
 
-- Pedir prestado GYUSD
+- Pedir prestado gyUSD
 - Multiplicar con un solo clic la exposición a los activos de garantía
-- Obtener rendimiento depositando GYUSD en el fondo de estabilidad o cultivando en otros lugares
-- Apostar NERI para dirigir PLI (incentivos de liquidez del protocolo) y obtener recompensas
-- Transmitir GYUSD como suscripción, salario, subvención o cualquier otro tipo de pago
+- Obtener rendimiento depositando gyUSD en el fondo de estabilidad o cultivando en otros lugares
 
 Para entender Gyoza, es útil comprender [Liquity](https://www.liquity.org)
 
@@ -37,7 +35,7 @@ Para entender Gyoza, es útil comprender [Liquity](https://www.liquity.org)
 |--|--|
 | Inmutabilidad|Solo ETH Mainnet (Liquity V2) frente a solo Arbitrum (Gyoza) |
 |Descentralización| **Garantías adicionales:** sfrxETH, weETH, tETH, tBTC, COMP y ARB|
-|El rescate de monedas estables por garantías subyacentes mantiene la paridad de 1,00 $ pase lo que pase| Gyoza añade streaming: GYUSD se puede transmitir a cualquier velocidad utilizando  [Superfluid](https://www.superfluid.finance/). Paga a cualquiera cada segundo.|
+|El rescate de monedas estables por garantías subyacentes mantiene la paridad de 1,00 $ pase lo que pase| Gyoza añade streaming: gyUSD se puede transmitir a cualquier velocidad utilizando  [Superfluid](https://www.superfluid.finance/). Paga a cualquiera cada segundo.|
 |Seguridad compartida de bifurcaciones amigables |El ARB depositado en el protocolo puede ser delegado por la gobernanza de Gyoza.|
 ||Gyoza añade características de seguridad adicionales para permitir otras características, como los límites de deuda|
 |||\

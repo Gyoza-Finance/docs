@@ -25,7 +25,7 @@ El protocolo Gyoza está diseñado para ser lo más descentralizado e inmutable 
 2. A dónde dirigir el 25% de las tasas de protocolo. 
 
 El gobierno de Gyoza NO puede añadir nuevos tipos de garantías. 
-El gobierno de Gyoza NUNCA puede acuñar GYUSD.
+El gobierno de Gyoza NUNCA puede acuñar gyUSD.
 El gobierno de Gyoza NO puede cambiar el porcentaje de comisiones que se destinan al fondo de estabilidad.
 
 ### Arbitrum Red

@@ -7,11 +7,11 @@ sidebar_position: 4
 
 ### What are redemptions?
 
-Redemptions serve the crucial purpose of keeping GYUSD pegged to the value of a dollar, creating a price floor around $0.9945. They do this in a decentralized way without reliance on centralized assets, oracles, or 3rd parties.
+Redemptions serve the crucial purpose of keeping gyUSD pegged to the value of a dollar, creating a price floor around $0.9945. They do this in a decentralized way without reliance on centralized assets, oracles, or 3rd parties.
 
-A redemption is essentially swapping GYUSD for ETH/LST at face value, as if 1 GYUSD is exactly worth $1.00. Redemptions can be initiated by anyone, but are only profitable when GYUSD is less than $1.
+A redemption is essentially swapping gyUSD for ETH/LST at face value, as if 1 gyUSD is exactly worth $1.00. Redemptions can be initiated by anyone, but are only profitable when gyUSD is less than $1.
 
-The redeemer sends GYUSD to the protocol and in return  gets a mix of WETH, wstETH and rETH (minus the redemption fee). The redeemed amount is split among the different collateral assets based on their current Stability Pool backing (see [link](#how-is-the-collateral-split-determined) for more info).
+The redeemer sends gyUSD to the protocol and in return  gets a mix of WETH, wstETH and rETH (minus the redemption fee). The redeemed amount is split among the different collateral assets based on their current Stability Pool backing (see [link](#how-is-the-collateral-split-determined) for more info).
 
 <img width="910" height="229" alt="Redeption" src="https://github.com/user-attachments/assets/c0548fbc-e4af-4713-a5d6-1b9ac1e828b9" />
 
@@ -27,11 +27,11 @@ In this case, the "Last In, First Out" (LIFO) principle applies, meaning the Tro
 
 ### When can redemptions occur? 
 
-A redemption can occur at any time, but will likely only happen when it is profitable to do so. This is usually the case when the price of GYUSD is less than $1 (minus the current redemption fee).
+A redemption can occur at any time, but will likely only happen when it is profitable to do so. This is usually the case when the price of gyUSD is less than $1 (minus the current redemption fee).
 
 ### Who can initiate a redemption? 
 
-Any Ethereum address can initiate a redemption, provided that they have a sufficient amount of GYUSD to do so. However, we expect redemptions to be mainly performed by professional bots rather than humans.
+Any Ethereum address can initiate a redemption, provided that they have a sufficient amount of gyUSD to do so. However, we expect redemptions to be mainly performed by professional bots rather than humans.
 
 ### What happens if my Trove gets redeemed?
 
@@ -41,18 +41,18 @@ If your collateral (ETH or LST) is redeemed, an equivalent amount of your debt i
 
 Example with ETH at $3'000:
 
-* Before the redemption: 10 ETH collateral, 20'000 GYUSD debt.
-* After the redemption: 5.025 ETH collateral, 5'000 GYUSD debt.
+* Before the redemption: 10 ETH collateral, 20'000 gyUSD debt.
+* After the redemption: 5.025 ETH collateral, 5'000 gyUSD debt.
 
 You can see your collateral and debt reduced equally (in USD terms) and the redemption fee (0.025 ETH) being added to your collateral value.
 
-Partially affected Troves whose debt stays above the minimum debt threshold of 500 GYUSD continue to work as before, while Troves whose debt is reduced to a lesser amount (or 0) switch to a dormant operating mode (see below for [more](#what-happens-when-redemptions-cause-a-debt-of-a-trove-to-fall-below-the-minimum-amount) info).
+Partially affected Troves whose debt stays above the minimum debt threshold of 500 gyUSD continue to work as before, while Troves whose debt is reduced to a lesser amount (or 0) switch to a dormant operating mode (see below for [more](#what-happens-when-redemptions-cause-a-debt-of-a-trove-to-fall-below-the-minimum-amount) info).
 
 ### How do redemptions work using three collateral assets?
 
-In contrast to LUSD, GYUSD is backed by a multitude of collaterals. Instead of letting the redeemer freely choose the collateral to redeem, Liquity V2 and Gyoza optimize the process for economic safety. Redemptions are thus serviced through a collateral mix in a way that enhances the overall backing of GYUSD.
+In contrast to LUSD, gyUSD is backed by a multitude of collaterals. Instead of letting the redeemer freely choose the collateral to redeem, Liquity V2 and Gyoza optimize the process for economic safety. Redemptions are thus serviced through a collateral mix in a way that enhances the overall backing of gyUSD.
 
-The process starts with the Troves paying the lowest interest rates in each collateral market and continues until the full amount of GYUSD is exchanged for collateral assets. Redemptions can be partial or full, as illustrated below.
+The process starts with the Troves paying the lowest interest rates in each collateral market and continues until the full amount of gyUSD is exchanged for collateral assets. Redemptions can be partial or full, as illustrated below.
 
 In this example, the rETH market shows a full redemption of the first Trove and a partial redemption of the second. The wstETH and ETH markets have one partial and two full redemptions, respectively
 
@@ -65,7 +65,7 @@ The split is dynamic, optimizing for the economic safety of the system. The logi
 
 To mitigate this risk, the system redeems proportionally to the "outside debt" of each collateral type. This is calculated as the total debt borrowed against a specific collateral minus the size of the Stability Pool for that borrowing market.
 
-Here is an example: given outside debt amounts of 100 GYUSD, 50 GYUSD and 100 GYUSD respectively, a redemption will result in a 40% (WETH), 20% (wstETH) and 40% (rETH) split.
+Here is an example: given outside debt amounts of 100 gyUSD, 50 gyUSD and 100 gyUSD respectively, a redemption will result in a 40% (WETH), 20% (wstETH) and 40% (rETH) split.
 
 <img width="1537" height="880" alt="Redeemer 2" src="https://github.com/user-attachments/assets/71008643-ae18-47cb-97bf-613293fe9e05" />
 
@@ -75,7 +75,7 @@ Yes. The redemption fee mechanics are broadly the same as in Liquity V1, but wit
 
 Redemption fees are based on the `baseRate` state variable, which is dynamically updated. The `baseRate` increases with each redemption, and exponentially decays according to time passed since the last redemption (half-life of 6 hours).
 
-Upon each redemption of x GYUSD: `baseRate` is decayed based on time passed since the last fee event and incremented by an amount proportional to the fraction of the total GYUSD supply to be redeemed, i.e. `x/total_bold_supply`
+Upon each redemption of x gyUSD: `baseRate` is decayed based on time passed since the last fee event and incremented by an amount proportional to the fraction of the total gyUSD supply to be redeemed, i.e. `x/total_bold_supply`
 
 The redemption fee percentage is given by `min (0.5%  + baseRate, 100%)`.
 
@@ -83,20 +83,20 @@ The redemption fee percentage is given by `min (0.5%  + baseRate, 100%)`.
 
 ### How can I stay protected?
 
-The risk of redemption depends on two factors: the interest rate you set and the price of GYUSD.
+The risk of redemption depends on two factors: the interest rate you set and the price of gyUSD.
 
-**The interest rate** you set determines how much GYUSD must be redeemed before it's your turn.  The higher your rate, the more GYUSD is redeemable before you, and vice versa.
+**The interest rate** you set determines how much gyUSD must be redeemed before it's your turn.  The higher your rate, the more gyUSD is redeemable before you, and vice versa.
 
 You can see this on any frontned, in the example below the number is 352k
 
 <img width="288" height="130" alt="Rate" src="https://github.com/user-attachments/assets/76db77d7-38c2-493f-94e8-83ec8ccf1629" />
 
 
-This means that 352k GYUSD must be removed from the system before it would reach you. However, this number is relative, and you also need to consider recent redemption activity. While past events don't guarantee future outcomes, they can serve as a useful guide.
+This means that 352k gyUSD must be removed from the system before it would reach you. However, this number is relative, and you also need to consider recent redemption activity. While past events don't guarantee future outcomes, they can serve as a useful guide.
 
-For example, if only 100K GYUSD were redeemed in the last week, you're comparatively safer than if 1M were redeemed. 
+For example, if only 100K gyUSD were redeemed in the last week, you're comparatively safer than if 1M were redeemed. 
 
-**The price of GYUSD** is the second crucial factor. When it trades above $1, redemptions become unprofitable and should cease. If demand for GYUSD is strong, it could maintain a price above $1 for an extended period.
+**The price of gyUSD** is the second crucial factor. When it trades above $1, redemptions become unprofitable and should cease. If demand for gyUSD is strong, it could maintain a price above $1 for an extended period.
 
 During such times, you can comfortably reduce the interest rate you're paying without increasing your risk of redemption.
 
@@ -131,36 +131,36 @@ Your Trove would not be affected - the only thing would get affected is the inte
 
 ### Why are redemptions not a feature of both LTV & interest rate, but only interest rate? 
 
-Given that the _raison d'etre_ for redemptions is to diminish GYUSD supply in response to reduced demand, and interest rates drive demand, rate-based redemption processing is a more sustainable and effective lever to reach market equilibrium. Actively managing for both interest rate and LTV would weaken the ability to enforce market-level interest rates and deposit yields, while complicating the process for the system and its users
+Given that the _raison d'etre_ for redemptions is to diminish gyUSD supply in response to reduced demand, and interest rates drive demand, rate-based redemption processing is a more sustainable and effective lever to reach market equilibrium. Actively managing for both interest rate and LTV would weaken the ability to enforce market-level interest rates and deposit yields, while complicating the process for the system and its users
 
 ### What's the difference in redemption fees charged between Liquity V1 and Gyoza? 
 In v2, when borrowers are affected by redemptions, the redemption fee charged to the redeemer stays within the affected Troves instead of being diverted as in Liquity.
 
-So, in Liquity the `borrower_loss = redemption_fee + redeemer_gain`, while in GYUSD it's `borrower_loss = redeemer_gain`.
+So, in Liquity the `borrower_loss = redemption_fee + redeemer_gain`, while in gyUSD it's `borrower_loss = redeemer_gain`.
 
 ### What happens when redemptions cause a debt of a Trove to fall below the minimum amount?
 
-If the redeemed amount exceeds the debt of an affected Trove, it doesn't get closed as in Liquity V1, but remains open with 0 GYUSD debt and the remaining collateral. The owner of a fully redeemed Trove may close it by withdrawing the remaining collateral, or borrow again to bring its debt above the minimum of 500 GYUSD, topping up its collateral if needed.
+If the redeemed amount exceeds the debt of an affected Trove, it doesn't get closed as in Liquity V1, but remains open with 0 gyUSD debt and the remaining collateral. The owner of a fully redeemed Trove may close it by withdrawing the remaining collateral, or borrow again to bring its debt above the minimum of 500 gyUSD, topping up its collateral if needed.
 
-In the scenario that the redeemed amount of a Trove does not exceed the debt of a Trove, but would leave it between 0 and 500 GYUSD, the Trove would remain open with the remaining debt, and the remaining collateral. The owner of the Trove may close it by paying off the remaining debt and withdrawing the remaining collateral, or borrow anew as described above.
+In the scenario that the redeemed amount of a Trove does not exceed the debt of a Trove, but would leave it between 0 and 500 gyUSD, the Trove would remain open with the remaining debt, and the remaining collateral. The owner of the Trove may close it by paying off the remaining debt and withdrawing the remaining collateral, or borrow anew as described above.
 
-### How to redeem GYUSD for collateral (mix of ETH, rETH and wstETH) using Etherscan
+### How to redeem gyUSD for collateral (mix of ETH, rETH and wstETH) using Etherscan
 
 **Step 1**
 
-To redeem GYUSD you first have to give the CollateralRegistry contract an approval to use your GYUSD using the approve() function of the GYUSD token contract.
+To redeem gyUSD you first have to give the CollateralRegistry contract an approval to use your gyUSD using the approve() function of the gyUSD token contract.
 
 After connecting your wallet through "Connect to Web3", set\
 spender to `CollateralRegistry address`and the amount to be at least as high as the amount you wish to redeem, adding 18 zeros.
 
-**Example for 1000 GYUSD:**
+**Example for 1000 gyUSD:**
 
 ![](https://docs.liquity.org/~gitbook/image?url=https%3A%2F%2F2342324437-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FE2A1Xrcj7XasxOiotWky%252Fuploads%252FyfWVv0gTWqCfg3YWYder%252Fred1.png%3Falt%3Dmedia%26token%3Dc05978b8-7946-4828-b81c-e7256bfeb0ce&width=768&dpr=4&quality=100&sign=b9753e68&sv=2)
 
 **Step 2**\
-You can now redeem GYUSD using the `CollateralRegistry` contract:
+You can now redeem gyUSD using the `CollateralRegistry` contract:
 
-[(insert CollateralRegistry address after deployment)](#)Simply input the GYUSD amount to redeem, the redemption fee percentage you are willing to accept and the maximum number of list iterations per collateral (limits the number of troves whose debt can be repaid on each branch).
+[(insert CollateralRegistry address after deployment)](#)Simply input the gyUSD amount to redeem, the redemption fee percentage you are willing to accept and the maximum number of list iterations per collateral (limits the number of troves whose debt can be repaid on each branch).
 
 Note: The redemption fee must be higher than the current fee.
 

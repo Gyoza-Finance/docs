@@ -25,7 +25,7 @@ Gyoza Protocol is designed to be as limited, decentralized, and immutable as pos
 2. How to direct 25% of protocol revenue. 
 
 New collateral types can NOT be added by Gyoza governance. 
-GYUSD can NEVER be minted by Gyoza governance.
+gyUSD can NEVER be minted by Gyoza governance.
 The percentage of fees that are directed to the stability pool can NOT be changed by Gyoza governance.
 
 ### Arbitrum Network

@@ -6,15 +6,13 @@ sidebar_position: 1
 # General
 
 ### What is Gyoza?
-Gyoza is a decentralized borrowing protocol that lets users deposit ETH, LSTs, and ARB as collateral, and mint the stablecoin GYUSD at an interest rate depositors choose. Gyoza is friendly fork based on Liquity v2.
+Gyoza is a decentralized borrowing protocol that lets users deposit ETH, LSTs, and ARB as collateral, and mint the stablecoin gyUSD at an interest rate depositors choose. Gyoza is friendly fork based on Liquity v2.
 
 ### The main use-cases for Gyoza are:
 
-- Borrow GYUSD
+- Borrow gyUSD
 - 1-click multiply exposure to collateral assets
-- Earn yield by depositing GYUSD in the stability pool or farming elsewhere
-- Stake NERI to direct PLI (Protocol Liquidity Incentives) and earn rewards
-- Stream GYUSD as a subscription, salary, grant, or any other kind of payment
+- Earn yield by depositing gyUSD in the stability pool or farming elsewhere
 
 To understand Gyoza it's helpful to understand [Liquity](https://www.liquity.org) 
 
@@ -40,7 +38,7 @@ To understand Gyoza it's helpful to understand [Liquity](https://www.liquity.org
 |--|--|
 | Immutability|ETH Mainnet (Liquity V2) only vs Arbitrum Only (Gyoza) |
 |Decentralization| **Additional Collateral:** Gyoza accepts: ETH, wstETH, rETH, rsETH, weETH, ARB, COMP, tBTC|
-|Redemption of stablecoins for underlying collateral maintains the $1.00 peg no matter what| Gyoza adds Streaming: GYUSD can be streamed at any rate using  [Superfluid](https://www.superfluid.finance/). Pay anyone every second.|
+|Redemption of stablecoins for underlying collateral maintains the $1.00 peg no matter what| Gyoza adds Streaming: gyUSD can be streamed at any rate using  [Superfluid](https://www.superfluid.finance/). Pay anyone every second.|
 |Shared Security from Friendly Forks |ARB deposited in the protocol can be delegated by Gyoza governance.|
 ||Gyoza adds Additional security features to allow for the other features, like debt limits|
 |||\
@@ -53,6 +51,6 @@ Gyoza is subject to minimal governance which is solely tasked with distributing 
 
 Dune Dashboard: https://dune.com/niftyteam/nerite
 
-Supefluid GYUSD streaming dashboard: https://app.superfluid.org/
+Supefluid gyUSD streaming dashboard: https://app.superfluid.org/
 
 
