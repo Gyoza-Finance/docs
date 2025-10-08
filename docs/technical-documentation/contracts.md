@@ -9,14 +9,14 @@ sidebar_position: 1
 ### Token Contracts
 | Contract Name | Address on Arbitrum |
 |---------------|---------------------|
-| USND – $1.00 pegged Stablecoin | [0x4ecf61a6c2fab8a047ceb3b3b263b401763e9d49](https://arbiscan.io/token/0x4ecf61a6c2fab8a047ceb3b3b263b401763e9d49) |
-| yUSND – Yield Bearing USND | [0x252b965400862d94bda35fecf7ee0f204a53cc36](https://arbiscan.io/address/0x252b965400862d94bda35fecf7ee0f204a53cc36)
+| GYUSD – $1.00 pegged Stablecoin | [0x4ecf61a6c2fab8a047ceb3b3b263b401763e9d49](https://arbiscan.io/token/0x4ecf61a6c2fab8a047ceb3b3b263b401763e9d49) |
+| yUSND – Yield Bearing GYUSD | [0x252b965400862d94bda35fecf7ee0f204a53cc36](https://arbiscan.io/address/0x252b965400862d94bda35fecf7ee0f204a53cc36)
 
 ### Core Contracts
 
 | Contract Name | Address on Arbitrum |
 |---------------|---------------------|
-| USND Token | `0x4ecf61a6c2fab8a047ceb3b3b263b401763e9d49` |
+| GYUSD Token | `0x4ecf61a6c2fab8a047ceb3b3b263b401763e9d49` |
 | CollateralRegistry | `0x7f7fbc2711c0d6e8ef757dbb82038032dd168e68` |
 | HintHelpers | `0x07ce30b1672d1ad4c00fc8f091608337e4748625` |
 | MultiTroveGetter | `0xe80bd7c36ad662f1b007dc1b1c490fbf4c47ab88` |

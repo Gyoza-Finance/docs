@@ -3,64 +3,64 @@ sidebar_position: 3
 ---
 
 
-# USND & Earn
+# GYUSD & Earn
 
-### What is USND?
+### What is GYUSD?
 
-USND is the USD-pegged stablecoin issued by the Gyoza protocol. It's decentralized, overcollateralized, and backed only by a basket of crypto native assets.
+GYUSD is the USD-pegged stablecoin issued by the Gyoza protocol. It's decentralized, overcollateralized, and backed only by a basket of crypto native assets.
 
-USND is a resilient stablecoin by design:
+GYUSD is a resilient stablecoin by design:
 
 * Only backed by crypto assets ("no real world assets" like US Treasuries)
 * Not subject to collateral changes and protocol upgrades (immutable)
 * Directly redeemable for the underlying assets at any time by any one permissionlessly (always convertible in a fast and liquid way)
 * Can only be created by users depositing more collateral. 
 
-### What are USND's main benefits compared to other stablecoins?
+### What are GYUSD's main benefits compared to other stablecoins?
 
-* USND is backed by a variety of LSTs, LRTs, plus ETH, ARB, and COMP.
+* GYUSD is backed by a variety of LSTs, LRTs, plus ETH, ARB, and COMP.
 * It is always redeemable for the underlying assets, meaning you can always swap it as if worth $1, for the collateral backing it
-* The contracts used to issue USND are immutable, not allowing any changes and significantly reducing attack vectors
-* USND has native incentives via Protocol Incentivized Liquidity (PIL) directed by governance, ensuring that there will always be sufficient liquidity to handle transactions
-* USND is a streamable super-token, making it perfect for subscriptions, money streaming, annuities, and other specialized use cases.
-* USND is Arbitrum native, and is built specifically for the fast and cheap Arbitrum network.
+* The contracts used to issue GYUSD are immutable, not allowing any changes and significantly reducing attack vectors
+* GYUSD has native incentives via Protocol Incentivized Liquidity (PIL) directed by governance, ensuring that there will always be sufficient liquidity to handle transactions
+* GYUSD is a streamable super-token, making it perfect for subscriptions, money streaming, annuities, and other specialized use cases.
+* GYUSD is Arbitrum native, and is built specifically for the fast and cheap Arbitrum network.
 
-### What is USND's peg mechanism?
+### What is GYUSD's peg mechanism?
 
-Gyoza uses Liquity V2's market-driven monetary policy through user-set interest rates to maintain USND's peg and to dynamically respond to situations where the token is above or below $1.00.
+Gyoza uses Liquity V2's market-driven monetary policy through user-set interest rates to maintain GYUSD's peg and to dynamically respond to situations where the token is above or below $1.00.
 
-When USND trades above $1, borrowers tend to reduce their rates due to lower redemption risk, making borrowing more and holding USND less attractive. This helps correct the price downwards.
+When GYUSD trades above $1, borrowers tend to reduce their rates due to lower redemption risk, making borrowing more and holding GYUSD less attractive. This helps correct the price downwards.
 
-In contrast, when USND trades below $1, arbitrageurs will initiate redemptions to restore the peg. Borrowers' exposure to redemption risk prompts them to increase interest rates, boosting demand for USND (and Earn deposits) and pushing its price upward.
-<img width="563" height="327" alt="USND Price Chart" src="https://github.com/user-attachments/assets/b78b6905-618a-4a79-aad6-92a8ae12f017" />
+In contrast, when GYUSD trades below $1, arbitrageurs will initiate redemptions to restore the peg. Borrowers' exposure to redemption risk prompts them to increase interest rates, boosting demand for GYUSD (and Earn deposits) and pushing its price upward.
+<img width="563" height="327" alt="GYUSD Price Chart" src="https://github.com/user-attachments/assets/b78b6905-618a-4a79-aad6-92a8ae12f017" />
 
 
 ### How can I earn yield with Gyoza?
 
-* Stability Pool deposits (Earn): Earn protocol revenue by depositing USND into the various Stability Pools.
-* Protocol Incentivized Liquidity (PIL): Supply liquidity for USND onto the incentivized external DEXes like Bunni and Camelot. 
+* Stability Pool deposits (Earn): Earn protocol revenue by depositing GYUSD into the various Stability Pools.
+* Protocol Incentivized Liquidity (PIL): Supply liquidity for GYUSD onto the incentivized external DEXes like Bunni and Camelot. 
 * Stake NERI (coming soon): Accrue voting power over liquidity incentives by staking NERI. On top of directing revenue, NERI stakers can potentially receive bribes (subject to governance vote) from third parties as an added bonus.
 
-Users can also use "set-and-forget" strategies, like depositing USND into the Yearn managed [yUSND vault](https://app.nerite.org/earn/yusnd). This vault aggigates yield between all the  stability pools and is recommended for users looking for the simplest USND strategy. It issues the [yUSND token](https://arbiscan.io/address/0x252b965400862d94bda35fecf7ee0f204a53cc36), which is a yield bearing version of USND.
+Users can also use "set-and-forget" strategies, like depositing GYUSD into the Yearn managed [yUSND vault](https://app.nerite.org/earn/yusnd). This vault aggigates yield between all the  stability pools and is recommended for users looking for the simplest GYUSD strategy. It issues the [yUSND token](https://arbiscan.io/address/0x252b965400862d94bda35fecf7ee0f204a53cc36), which is a yield bearing version of GYUSD.
 ![yUSNDvault](/img/yUSNDvault.png)
 
 ### Where does the yield for the Stability Pool deposits come from?
 
 The yield comes from three sources:
 
-1. **Interest payments**: Each borrow-market funnels 75% of the of its revenue to its Stability Pool depositors (Earners). This is paid out in USND.
-2. **Liquidation fees**: Your USND will be used to liquidate under-collateralized loans, effectively buying their collateral with a \~5% discount. This is paid out in (staked) ETH.
+1. **Interest payments**: Each borrow-market funnels 75% of the of its revenue to its Stability Pool depositors (Earners). This is paid out in GYUSD.
+2. **Liquidation fees**: Your GYUSD will be used to liquidate under-collateralized loans, effectively buying their collateral with a \~5% discount. This is paid out in (staked) ETH.
 3. **Inflationary Incentives**: NERI tokens are added as a bonus inflationary reward to depositors.
 
 All the yield is fully sustainable, scalable and "real", with no token emissions and lockups.
 
 ### Is there a lockup period? 
 
-There is no lockup period. Users are free to withdraw their USND deposits from the Stability Pool whenever they want.
+There is no lockup period. Users are free to withdraw their GYUSD deposits from the Stability Pool whenever they want.
 
 ### What is the estimated yield on Earn? 
 
-The yield is a representation of the rates borrowers are paying. Since 75% of the borrowers' interest payments go to Earn, the effective yield can exceed the average interest rate paid in a borrow market if less than 75% of the USND supply is deposited to the respective Stability Pool. This yield amplification sets Liquity V2 and Gyoza apart from competitors and money markets where lending rates cannot be higher than borrow rates.
+The yield is a representation of the rates borrowers are paying. Since 75% of the borrowers' interest payments go to Earn, the effective yield can exceed the average interest rate paid in a borrow market if less than 75% of the GYUSD supply is deposited to the respective Stability Pool. This yield amplification sets Liquity V2 and Gyoza apart from competitors and money markets where lending rates cannot be higher than borrow rates.
 
 Check historic rates on Liquity V2 [here](https://dune.com/liquity/liquity-v2#interest-rates).
 
@@ -73,9 +73,9 @@ The goals are to:
 
 ### How have Stability Pools evolved in Liquity based systems like Gyoza, from Liquity V1 to V2?
 
-In V2, the concept of Stability Pools is expanded to accommodate multiple Liquid Staking Tokens (LSTs), Vanguard crypto tokens, as well as ETH as collateral, and keeping the interest revenue and liquidations proceeds inside the respective borrow market (collateral). Each collateral asset thus has its own Stability Pool to distribute yield to USND depositors.
+In V2, the concept of Stability Pools is expanded to accommodate multiple Liquid Staking Tokens (LSTs), Vanguard crypto tokens, as well as ETH as collateral, and keeping the interest revenue and liquidations proceeds inside the respective borrow market (collateral). Each collateral asset thus has its own Stability Pool to distribute yield to GYUSD depositors.
 
-Additionally, user-set interest rates in V2 influence the yield dynamics for  Stability Pools depositors (Earn) as the yield is now fully sustainable coming from user-set interest rates (in USND) rather than token emissions.
+Additionally, user-set interest rates in V2 influence the yield dynamics for  Stability Pools depositors (Earn) as the yield is now fully sustainable coming from user-set interest rates (in GYUSD) rather than token emissions.
 
 ### How do risks differ for the different Stability Pools?
 
@@ -83,7 +83,7 @@ Users can deposit their stablecoins into the Stability Pool of their choice, ali
 
 By offering separate pools for different collateral types, the system allows users to choose their exposure based on the perceived risk and potential returns of each LST or ETH. This compartmentalization helps manage systemic risk, ensuring that impacts from liquidations in one asset class don't disproportionately affect the entire ecosystem.
 
-It is important to note that all USND holders including depositors still remain dependent on USND to keep its peg, remaining exposed to both all LSTs and ETH.
+It is important to note that all GYUSD holders including depositors still remain dependent on GYUSD to keep its peg, remaining exposed to both all LSTs and ETH.
 
 
 :::tip

@@ -18,7 +18,7 @@ const FeatureList = [
     Svg: require('@site/static/img/green.png').default,
     description: (
       <>
-        <Translate id="feature.streamable.desc">USND is a streaming super-token stablecoin built with the Superfluid protocol.</Translate>
+        <Translate id="feature.streamable.desc">GYUSD is a streaming super-token stablecoin built with the Superfluid protocol.</Translate>
       </>
     ),
   },
@@ -27,7 +27,7 @@ const FeatureList = [
     Svg: require('@site/static/img/red.png').default,
     description: (
       <>
-        <Translate id="feature.sustainable.desc">USND yield is sustainable and comes from multiple sources. 100% of protocol revenue is directed towards users.</Translate>
+        <Translate id="feature.sustainable.desc">GYUSD yield is sustainable and comes from multiple sources. 100% of protocol revenue is directed towards users.</Translate>
       </>
     ),
   },

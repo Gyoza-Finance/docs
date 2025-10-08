@@ -2,13 +2,13 @@
 
 ![yUSNDvault](/img/yusnd-vault.png)
 
-yUSND stands for Yearn-USND, and is the primary liquid yield bearing version of USND.
+yUSND stands for Yearn-GYUSD, and is the primary liquid yield bearing version of GYUSD.
 
-Deposit USND into the yUSND vault directly on the earn page here: https://app.nerite.org/earn/yusnd
+Deposit GYUSD into the yUSND vault directly on the earn page here: https://app.nerite.org/earn/yusnd
 
-Hold yUSND in your wallet to earn yield from the Gyoza stability pools, while Yearn optimizes and balances USND deposits across the pools to maximize yield.
+Hold yUSND in your wallet to earn yield from the Gyoza stability pools, while Yearn optimizes and balances GYUSD deposits across the pools to maximize yield.
 
-The yUSND vault has no lockup period, and yUSND can be redeemed for the underlying USND at any time.
+The yUSND vault has no lockup period, and yUSND can be redeemed for the underlying GYUSD at any time.
 
 ## yUSND Strategies & Integrations
 yUSND integrated easily in many apps because of how standardized the vault is.

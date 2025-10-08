@@ -351,7 +351,7 @@
     "description": "Feature title: Streamable"
   },
   "feature.streamable.desc": {
-    "message": "USND es una moneda estable supertoken de streaming construida con el protocolo Superfluid.",
+    "message": "GYUSD es una moneda estable supertoken de streaming construida con el protocolo Superfluid.",
     "description": "Feature description: Streamable"
   },
   "feature.sustainable.title": {
@@ -359,7 +359,7 @@
     "description": "Feature title: Sustainable"
   },
   "feature.sustainable.desc": {
-    "message": "El rendimiento de USND es sostenible y proviene de múltiples fuentes. El 100% de los ingresos del protocolo se destina a los usuarios.",
+    "message": "El rendimiento de GYUSD es sostenible y proviene de múltiples fuentes. El 100% de los ingresos del protocolo se destina a los usuarios.",
     "description": "Feature description: Sustainable"
   }
 }

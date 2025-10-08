@@ -19,7 +19,7 @@ Los titulares tienen el poder de:
 
 
 Los titulares de NERI NO tienen el poder de:
-- Acuñar nuevos USND o controlar los Troves de los usuarios.
+- Acuñar nuevos GYUSD o controlar los Troves de los usuarios.
 - Actualizar el protocolo o cambiar las reglas.
 - Añadir nuevos tipos de garantías.
 - Cambiar la división o el comportamiento de las comisiones de pago de intereses del protocolo.

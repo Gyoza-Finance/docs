@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ### What makes borrowing on Gyoza so unique?
 
-Gyoza allows users to borrow the stablecoin USND on their own terms. Borrowers can choose and adjust the rate they are willing to pay for their loans. Borrowers can choose to pay 0%, 5%, 20%, etc.. Borrowers will establish market rates in accordance with their individual risk tolerance without relying on governance or algorithm rate management. Each collateral also has its own respective borrow market which allows room for a market of rates to develop.
+Gyoza allows users to borrow the stablecoin GYUSD on their own terms. Borrowers can choose and adjust the rate they are willing to pay for their loans. Borrowers can choose to pay 0%, 5%, 20%, etc.. Borrowers will establish market rates in accordance with their individual risk tolerance without relying on governance or algorithm rate management. Each collateral also has its own respective borrow market which allows room for a market of rates to develop.
 
 All of this makes for a highly capital efficient, secure and decentralized borrowing experience.
 
@@ -61,7 +61,7 @@ New collateral types can never be added. But existing ones can be removed, or re
 
 ### Is there a minimum debt?
 
-Yes, a minimum debt of 500 USND is required for borrowing.
+Yes, a minimum debt of 500 GYUSD is required for borrowing.
 
 ### **When do I need to pay back my loan?**
 
@@ -124,13 +124,13 @@ To open a new Trove, the protocol requires a liquidation reserve of 0.001 ETH re
 
 On Gyoza, there are no upfront fees. Instead, you pay interest on an ongoing basis, making it suitable for short-term loans as well. When creating a new position or increasing the amount borrowed, borrowers pay the first week of interest up front to prevent the protocol from leaking value to arbitrage bots.
 
-The interest you pay is determined by the rate you set yourself. For example, if you borrow 10,000 USND at a 5% interest rate, you'll pay \~500 USND in interest after one year. This interest is added to your outstanding debt.
+The interest you pay is determined by the rate you set yourself. For example, if you borrow 10,000 GYUSD at a 5% interest rate, you'll pay \~500 GYUSD in interest after one year. This interest is added to your outstanding debt.
 
 ### What are user-set rates?
 
-On Gyoza, users set their own interest rates, giving them full control over costs and improving predictability. This feature allows for adaptability to various market conditions and helps stabilize USND's peg.
+On Gyoza, users set their own interest rates, giving them full control over costs and improving predictability. This feature allows for adaptability to various market conditions and helps stabilize GYUSD's peg.
 
-User-set interest rates facilitate a capital-efficient equilibrium between USND borrowers and holders in a fully market-driven manner. Additionally, these rates serve as the primary revenue source for USND holders, generating a continuous, sustainable real yield for USND depositors and liquidity providers.
+User-set interest rates facilitate a capital-efficient equilibrium between GYUSD borrowers and holders in a fully market-driven manner. Additionally, these rates serve as the primary revenue source for GYUSD holders, generating a continuous, sustainable real yield for GYUSD depositors and liquidity providers.
 
 Borrowers should set their rates based on their [redemption](/docs/user-docs/redemption-and-delegation#what-are-redemptions) risk tolerance.
 
@@ -156,7 +156,7 @@ You can see the distribution of other users' rates in a histogram and position y
 
 <img width="288" height="130" alt="Rate" src="https://github.com/user-attachments/assets/2dd663be-fae8-4290-9d60-0d5f7f71089a" />
 
-Redemptions usually occur when USND is trading below $1 minus the current redemption fee. Keeping an eye on the past [redemption activity](https://dune.com/liquity/liquity-v2#redemptions) can help you assess the overall redemption risk, serving as an additional data point for your rate selection.
+Redemptions usually occur when GYUSD is trading below $1 minus the current redemption fee. Keeping an eye on the past [redemption activity](https://dune.com/liquity/liquity-v2#redemptions) can help you assess the overall redemption risk, serving as an additional data point for your rate selection.
 
 In general, those willing to actively monitor their positions, or borrowing for shorter periods of time, may opt for lower rates. Conversely users optimizing for a more passive, long-term position would be better off with setting a higher relative interest rate.
 
@@ -164,7 +164,7 @@ In general, those willing to actively monitor their positions, or borrowing for 
 
 These will be set, continuously, by the market and will vary over time. We would expect that, on average, rates should be similar to borrowing on Sky or Aave using ETH or staked ETH. However, due to the flexibility of user-set rates, it is possible that some users will pay significantly lower rates during certain periods.&#x20;
 
-Given that 75% of the interest revenue is directly paid out to USND depositors , we further expect that stablecoin deposit yields should be comparable, if not higher than what competing CDP's and lending markets offer. Thanks to the attractiveness of USND and assuming the emergence of external use cases (monetary premium), this could lead to lower borrow rates overall than offered by other platforms. Learn more about the spread between borrowers and lenders in our [article](https://www.liquity.org/blog/liquity-v2-a-de-facto-reference-rate-for-defi).
+Given that 75% of the interest revenue is directly paid out to GYUSD depositors , we further expect that stablecoin deposit yields should be comparable, if not higher than what competing CDP's and lending markets offer. Thanks to the attractiveness of GYUSD and assuming the emergence of external use cases (monetary premium), this could lead to lower borrow rates overall than offered by other platforms. Learn more about the spread between borrowers and lenders in our [article](https://www.liquity.org/blog/liquity-v2-a-de-facto-reference-rate-for-defi).
 
 ### What determines the riskiness of my Trove?
 
@@ -181,7 +181,7 @@ You have the flexibility to set these parameters as you see fit, allowing you to
 
 To impede Trove redemption evasion strategies where borrowers try to minimize their interest payments in an unfair manner, a small "premature adjustment fee" is charged on interest rate changes that happen within less than 7 days since the last adjustment (or the opening of the Trove). The premature adjustment fee is equal to 7 days of average interest on the respective borrow market. Note that this fee differs from the user's set interest rate.&#x20;
 
-The fee is denominated in USND and added to the Trove's debt. The same fee is charged when a new Trove is opened or when its debt is increased (only affecting the added debt).
+The fee is denominated in GYUSD and added to the Trove's debt. The same fee is charged when a new Trove is opened or when its debt is increased (only affecting the added debt).
 
 ### How many Troves (loans) can I open with the same address?
 
@@ -195,7 +195,7 @@ Please note that more advanced strategies like 'selling' Troves on secondary mar
 
 ### How do I loop my exposure?
 
-Looping allows you to borrow USND against your deposited collateral (ETH, wstETH or rETH) and use it to buy more collateral, increasing your exposure to the underlying . Liquity V2 comes with built-in automation to achieve this with one click (zappers).&#x20;
+Looping allows you to borrow GYUSD against your deposited collateral (ETH, wstETH or rETH) and use it to buy more collateral, increasing your exposure to the underlying . Liquity V2 comes with built-in automation to achieve this with one click (zappers).&#x20;
 
 Make sure you choose a frontend that supports this functionality, and be mindful of liquidity/slippage.
 
@@ -207,15 +207,15 @@ Gyoza will have those 3 plus the additional collaterals mentioned above, but all
 
 Risks are mitigated through temporary borrowing restrictions in times of low collateralization of a given market, a redemption logic prioritizing  collateral with less Stability Pool backing, and a collateral shutdown as an emergency measure to maintain system balance and protect against market instability.
 
-Keep in mind that despite all these measures, USND remains dependent on the three mentioned collateral assets and there is no strict guarantee that it remains overcollateralized in case of a sudden collapse of a collateral asset.
+Keep in mind that despite all these measures, GYUSD remains dependent on the three mentioned collateral assets and there is no strict guarantee that it remains overcollateralized in case of a sudden collapse of a collateral asset.
 
 ### How does the system compartmentalize risk among different LSTs? 
 
 This depends on the party in question:
 
 * Borrowers: Collateral risk is limited to the collateral asset held by the borrower. A borrower isn't negatively affected by a failure of another collateral asset.
-* USND Holders: As a multi-collateral stablecoin, USND is reliant on effective liquidations of undercollateralized loans in every borrow market to remain overcollateralized. Holders are subject to the risks of all supported collateral assets.
-* Earners: Stability Pool depositors only get exposure to the asset they have opted for. However, as USND holders, they are similarly affected by potential depegging.
+* GYUSD Holders: As a multi-collateral stablecoin, GYUSD is reliant on effective liquidations of undercollateralized loans in every borrow market to remain overcollateralized. Holders are subject to the risks of all supported collateral assets.
+* Earners: Stability Pool depositors only get exposure to the asset they have opted for. However, as GYUSD holders, they are similarly affected by potential depegging.
 
 ### What mechanisms are in place if the Stability Pool is empty?
 
@@ -223,7 +223,7 @@ If the Stability Pool doesn't cover the full entire debt and gets completely emp
 
 The liquidator can freely choose between two fallback liquidation modes for the debt exceeding the funds in the Stability Pool:
 
-1. Just-in-time (JIT) liquidation: the liquidator sends an amount of USND corresponding to the (remaining) debt in exchange for 105% of its nominal value in (staked) ETH.
+1. Just-in-time (JIT) liquidation: the liquidator sends an amount of GYUSD corresponding to the (remaining) debt in exchange for 105% of its nominal value in (staked) ETH.
 2. Redistribution: the liquidator triggers a redistribution, through which the Trove's entire debt and collateral is redistributed to all fellow borrowers of the respective collateral market, in proportion to their own collateral amounts. Thus, the respective borrowers will receive a share of the liquidated collateral and see their debts increase proportionally.
 
 ### Shutdown Borrow Markets
