@@ -10,7 +10,7 @@ sidebar_position: 5
 
 Guía para staking tokens NERI y participar en la gobernanza.
 
-El token NERI es el token de gobernanza nativo del protocolo Nerite. 
+El token NERI es el token de gobernanza nativo del protocolo Gyoza. 
 
 Los titulares tienen el poder de:
 1. Actualizar (aumentar o disminuir) los límites de deuda para cada tipo de garantía que acepta el sistema. Establecer el límite de deuda en 0 esencialmente cerraría esa rama de garantía y solo permitiría los reembolsos.

@@ -323,7 +323,7 @@
     "description": "The title of the tag list page"
   },
   "homepage.title": {
-    "message": "Documentación del protocolo Nerite",
+    "message": "Documentación del protocolo Gyoza",
     "description": "The title of the homepage"
   },
   "homepage.tagline": {
@@ -331,11 +331,11 @@
     "description": "The tagline of the homepage"
   },
   "homepage.userDocs": {
-    "message": "Documentación del usuario de Nerite",
+    "message": "Documentación del usuario de Gyoza",
     "description": "The label of the link targeting the user docs page"
   },
   "homepage.technicalDocs": {
-    "message": "Documentos técnicos de Nerite",
+    "message": "Documentos técnicos de Gyoza",
     "description": "The label of the link targeting the technical docs page"
   },
   "feature.redeemable.title": {
@@ -343,7 +343,7 @@
     "description": "Feature title: Redeemable"
   },
   "feature.redeemable.desc": {
-    "message": "Cada moneda estable emitida por Nerite se puede canjear por $1 de garantía en el sistema.",
+    "message": "Cada moneda estable emitida por Gyoza se puede canjear por $1 de garantía en el sistema.",
     "description": "Feature description: Redeemable"
   },
   "feature.streamable.title": {

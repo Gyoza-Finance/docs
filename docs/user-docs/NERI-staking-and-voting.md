@@ -10,7 +10,7 @@ sidebar_position: 5
 
 Guide to staking NERI tokens and participating in governance.
 
-NERI token is the native governance token of the Nerite protocol. 
+NERI token is the native governance token of the Gyoza protocol. 
 
 Holders have the power to:
 1. Update (increase or decrease) the debt limits for each collateral type the system accepts. Setting the debt limit to 0 would essentially shutdown that collateral branch and only allow repayments.

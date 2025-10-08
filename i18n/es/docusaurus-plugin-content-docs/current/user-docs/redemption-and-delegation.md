@@ -51,7 +51,7 @@ Los Troves parcialmente afectados cuya deuda se mantiene por encima del umbral m
 ### ¿Cómo funcionan los reembolsos con tres activos de garantía?
 ![](https://docs.liquity.org/~gitbook/image?url=https%3A%2F%2F2342324437-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FE2A1Xrcj7XasxOiotWky%252Fuploads%252FJtx0jgGBkGisNExyXZ5a%252Fredemption%2520split%25202.png%3Falt%3Dmedia%26token%3D79f895c0-290c-41e9-9aeb-b3fa5a3709f5&width=768&dpr=4&quality=100&sign=17e818d8&sv=2)
 
-A diferencia del LUSD, el USND está respaldado por multitud de activos de garantía. En lugar de dejar que el rescatador elija libremente la garantía que desea rescatar, Liquity V2 y Nerite optimizan el proceso en aras de la seguridad económica. De este modo, los reembolsos se realizan mediante una combinación de garantías que mejora el respaldo global de USND.
+A diferencia del LUSD, el USND está respaldado por multitud de activos de garantía. En lugar de dejar que el rescatador elija libremente la garantía que desea rescatar, Liquity V2 y Gyoza optimizan el proceso en aras de la seguridad económica. De este modo, los reembolsos se realizan mediante una combinación de garantías que mejora el respaldo global de USND.
 
 El proceso comienza cuando los Troves pagan los tipos de interés más bajos en cada mercado de activos de garantía y continúa hasta que el importe total de USND se intercambia por activos de garantía. Los reembolsos pueden ser parciales o totales, como se ilustra a continuación.
 
@@ -103,7 +103,7 @@ En esos momentos, puede reducir cómodamente el tipo de interés que paga sin au
 
 ### ¿Qué es la delegación de tipos de interés?
 
-La delegación del tipo de interés es una función de Liquity V2 y Nerite que permite a los prestatarios delegar la gestión de su tipo de interés en un tercero. Esto les permite crear una posición pasiva, sin intervención, al tiempo que mantienen un tipo competitivo y un bajo riesgo de amortización.
+La delegación del tipo de interés es una función de Liquity V2 y Gyoza que permite a los prestatarios delegar la gestión de su tipo de interés en un tercero. Esto les permite crear una posición pasiva, sin intervención, al tiempo que mantienen un tipo competitivo y un bajo riesgo de amortización.
 
 Existen tres tipos de delegaciones:
 
@@ -122,7 +122,7 @@ Coming soon.
 | Entidad | Activo de garantía | Dirección del delegado | Descripción |
 | ------- | ------------------ | ---------------------- | ----------- |
 
-Tenga en cuenta que ni Liquity AG ni Nerite son responsables de las acciones de los delegados. Por favor, investigue por su cuenta.
+Tenga en cuenta que ni Liquity AG ni Gyoza son responsables de las acciones de los delegados. Por favor, investigue por su cuenta.
 
 ### ¿Qué ocurre si hay problemas con el contrato inteligente para delegar tipos de interés?
 
@@ -132,7 +132,7 @@ Su Trove no se vería afectado - lo único que se vería afectado es el tipo de 
 
 Dado que la razón de ser de los reembolsos es disminuir la oferta de USND en respuesta a la reducción de la demanda, y que los tipos de interés impulsan la demanda, el tratamiento de los reembolsos basado en el tipo de interés es una palanca más sostenible y eficaz para alcanzar el equilibrio del mercado. Gestionar activamente tanto el tipo de interés como la LTV debilitaría la capacidad de aplicar tipos de interés y rendimientos de depósitos a nivel de mercado, a la vez que complicaría el proceso para el sistema y sus usuarios.
 
-### ¿Cuál es la diferencia en las comisiones de reembolso aplicadas entre Liquity V1 y Nerite? 
+### ¿Cuál es la diferencia en las comisiones de reembolso aplicadas entre Liquity V1 y Gyoza? 
 En v2, cuando los prestatarios se ven afectados por reembolsos, la comisión de reembolso cobrada al reembolsador se queda en los Troves afectados en lugar de desviarse como en Liquity.
 
 Así, en Liquity la `pérdida_prestatario = comisión_redención + ganancia_redención`, mientras que en USND es `pérdida_prestatario = ganancia_redención`.

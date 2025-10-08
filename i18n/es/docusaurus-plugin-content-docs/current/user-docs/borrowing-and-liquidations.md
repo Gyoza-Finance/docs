@@ -4,16 +4,16 @@ sidebar_position: 2
 
 # Préstamos y liquidaciones
 
-### ¿Qué hace que los préstamos en Nerite sean tan únicos?
+### ¿Qué hace que los préstamos en Gyoza sean tan únicos?
 
-Nerite permite a los usuarios pedir prestada la moneda estable USND en sus propios términos. Los prestatarios pueden elegir y ajustar la tasa que están dispuestos a pagar por sus préstamos. Los prestatarios pueden elegir pagar un 0 %, un 5 %, un 20 %, etc. Los prestatarios establecerán las tasas de mercado de acuerdo con su tolerancia al riesgo individual, sin depender de la gobernanza ni de la gestión algorítmica de las tasas. Cada garantía también tiene su propio mercado de préstamos, lo que permite que se desarrolle un mercado de tasas.
+Gyoza permite a los usuarios pedir prestada la moneda estable USND en sus propios términos. Los prestatarios pueden elegir y ajustar la tasa que están dispuestos a pagar por sus préstamos. Los prestatarios pueden elegir pagar un 0 %, un 5 %, un 20 %, etc. Los prestatarios establecerán las tasas de mercado de acuerdo con su tolerancia al riesgo individual, sin depender de la gobernanza ni de la gestión algorítmica de las tasas. Cada garantía también tiene su propio mercado de préstamos, lo que permite que se desarrolle un mercado de tasas.
 
 Todo esto da lugar a una experiencia de préstamo altamente eficiente en términos de capital, segura y descentralizada.
 
 ### ¿Qué es un Trove?
 
 Cuando un prestatario deposita una garantía (ETH, rETH, ARB, etc.), se crea un Trove (posición de préstamo individual, también llamado 'Trove').
-Un **Trove** es la versión de Nerite de una «caja fuerte» o posición individual de préstamo. Cada Trove tiene un propietario de dirección Ethereum concreto, y cada propietario puede tener varios Troves.
+Un **Trove** es la versión de Gyoza de una «caja fuerte» o posición individual de préstamo. Cada Trove tiene un propietario de dirección Ethereum concreto, y cada propietario puede tener varios Troves.
 
 Cada Trove solo puede tener un tipo de garantía depositada en él.
 ```mermaid
@@ -34,9 +34,9 @@ Cada Trove le permite gestionar un préstamo, ajustando los valores de la garant
 
 Los Troves también son NFT (tokens no fungibles) transferibles y se pueden encontrar en la cartera del propietario. Tenga cuidado con esto: al transferir el NFT también se transfiere la propiedad de la posición.
 
-### ¿Qué tipos de garantías puedo utilizar en Nerite?
+### ¿Qué tipos de garantías puedo utilizar en Gyoza?
 
-Nerite trabaja con las siguientes diez garantías:
+Gyoza trabaja con las siguientes diez garantías:
 - WETH (Ethereum envuelto)
 - wstETH (Lido ETH envuelto)
 - rETH (Rocket pool ETH)
@@ -78,11 +78,11 @@ Tenga en cuenta que estos ejemplos son solo ilustrativos y no representan umbral
 Si su LTV se vuelve demasiado alto, su posición será liquidada.
 > LTV = Préstamo sobre valor Un LTV del 50 % significa que si pidió prestados 100 $, su garantía es de 200 $.
 
-### ¿Cómo funcionan las liquidaciones en Nerite?
+### ¿Cómo funcionan las liquidaciones en Gyoza?
 
 Las posiciones (Troves) se liquidan si el LTV supera el valor máximo.
 
-Nerite utiliza los fondos de estabilidad como su principal mecanismo de liquidación para absorber la deuda y las garantías liquidadas. Cada mercado de préstamos tiene su propio fondo de estabilidad dedicado que obtiene ganancias por liquidación (en la garantía respectiva) a cambio de quemar deuda. Eso significa que los depositantes del fondo de estabilidad ganan el 100 % de las comisiones de las liquidaciones del protocolo y obtienen esas comisiones en la garantía liquidada (por ejemplo, ETH).
+Gyoza utiliza los fondos de estabilidad como su principal mecanismo de liquidación para absorber la deuda y las garantías liquidadas. Cada mercado de préstamos tiene su propio fondo de estabilidad dedicado que obtiene ganancias por liquidación (en la garantía respectiva) a cambio de quemar deuda. Eso significa que los depositantes del fondo de estabilidad ganan el 100 % de las comisiones de las liquidaciones del protocolo y obtienen esas comisiones en la garantía liquidada (por ejemplo, ETH).
 
 Las liquidaciones justo a tiempo y la redistribución de la deuda y la garantía entre los prestatarios del mismo mercado gestionan las liquidaciones como último recurso si el fondo de estabilidad se quedara vacío.
 
@@ -121,7 +121,7 @@ Los intereses que se pagan se determinan según el tipo de interés que se estab
 
 ### ¿Qué son los tipos establecidos por el usuario?
 
-En Nerite *y Liquity V2*, los usuarios pueden establecer sus propios tipos de interés, lo que les da un control total sobre los costes y mejora la previsibilidad. Esta característica permite adaptarse a diversas condiciones del mercado y ayuda a estabilizar la paridad del USND.
+En Gyoza *y Liquity V2*, los usuarios pueden establecer sus propios tipos de interés, lo que les da un control total sobre los costes y mejora la previsibilidad. Esta característica permite adaptarse a diversas condiciones del mercado y ayuda a estabilizar la paridad del USND.
 
 Los tipos de interés establecidos por el usuario facilitan un equilibrio eficiente en términos de capital entre los prestatarios y los titulares de USND de una manera totalmente impulsada por el mercado. Además, estas tasas sirven como la principal fuente de ingresos para los titulares de USND, generando un rendimiento real continuo y sostenible para los depositantes y proveedores de liquidez de USND.
 
@@ -196,7 +196,7 @@ Asegúrate de elegir una interfaz que admita esta funcionalidad y ten en cuenta 
 
 Liquity V2 tendrá tres mercados de préstamos separados para los diferentes tipos de garantías con sus propios  fondos de estabilidad (para liquidaciones eficientes), tipos de interés establecidos por el usuario y factores LTV para sus respectivos activos (ETH, wstETH y rETH). 
 
-Nerite tendrá esos tres más las garantías adicionales mencionadas anteriormente, pero todas seguirán los mismos patrones inmutables.
+Gyoza tendrá esos tres más las garantías adicionales mencionadas anteriormente, pero todas seguirán los mismos patrones inmutables.
 
 Los riesgos se mitigan mediante restricciones temporales de préstamo en momentos de baja colateralización de un mercado determinado, una lógica de rescate que da prioridad a las garantías con menos respaldo del fondo de estabilidad y un cierre de garantías como medida de emergencia para mantener el equilibrio del sistema y protegerlo contra la inestabilidad del mercado.
 

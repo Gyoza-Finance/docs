@@ -50,7 +50,7 @@ Partially affected Troves whose debt stays above the minimum debt threshold of 5
 
 ### How do redemptions work using three collateral assets?
 
-In contrast to LUSD, USND is backed by a multitude of collaterals. Instead of letting the redeemer freely choose the collateral to redeem, Liquity V2 and Nerite optimize the process for economic safety. Redemptions are thus serviced through a collateral mix in a way that enhances the overall backing of USND.
+In contrast to LUSD, USND is backed by a multitude of collaterals. Instead of letting the redeemer freely choose the collateral to redeem, Liquity V2 and Gyoza optimize the process for economic safety. Redemptions are thus serviced through a collateral mix in a way that enhances the overall backing of USND.
 
 The process starts with the Troves paying the lowest interest rates in each collateral market and continues until the full amount of USND is exchanged for collateral assets. Redemptions can be partial or full, as illustrated below.
 
@@ -102,7 +102,7 @@ During such times, you can comfortably reduce the interest rate you're paying wi
 
 ### What is delegation of interest rates?
 
-Interest rate delegation is a feature in Liquity V2 and Nerite that allows borrowers to delegate the management of their interest rate to a third party. This enables them to create a passive, hands-off position, while still keeping a competitive rate and low redemption risk.
+Interest rate delegation is a feature in Liquity V2 and Gyoza that allows borrowers to delegate the management of their interest rate to a third party. This enables them to create a passive, hands-off position, while still keeping a competitive rate and low redemption risk.
 
 There are three types of delegations:
 
@@ -119,11 +119,11 @@ Borrowers should thus keep an eye on the interest rate range and the maximum upd
 
 | Entity | Collateral Assets | Delegation Info | Description |
 | ------ | ---------------- | ---------------- | ----------- |
-| Summerstone | All assets on Nerite | https://summerstone.xyz/docs/for-users/managed-interest-rates/supported-protocols/usnd-from-nerite | Experienced infrastructure parter who provides several services for Nerite. |
-| Bolder Cash | All assets on Nerite | https://bolder.cash/rate-strategies?f=nerite&c=combined | Customizable rate manager offering various low, medium, and high rate strategies transparently. |
+| Summerstone | All assets on Gyoza | https://summerstone.xyz/docs/for-users/managed-interest-rates/supported-protocols/usnd-from-nerite | Experienced infrastructure parter who provides several services for Gyoza. |
+| Bolder Cash | All assets on Gyoza | https://bolder.cash/rate-strategies?f=nerite&c=combined | Customizable rate manager offering various low, medium, and high rate strategies transparently. |
 |        |                  |                  |             |
 
-_Note that neither  Liquity AG nor Nerite are responsible for the actions of any delegates. Please do your own research._
+_Note that neither  Liquity AG nor Gyoza are responsible for the actions of any delegates. Please do your own research._
 
 ### What happens if there are issues with the smart contract for delegating interest rates? 
 
@@ -133,7 +133,7 @@ Your Trove would not be affected - the only thing would get affected is the inte
 
 Given that the _raison d'etre_ for redemptions is to diminish USND supply in response to reduced demand, and interest rates drive demand, rate-based redemption processing is a more sustainable and effective lever to reach market equilibrium. Actively managing for both interest rate and LTV would weaken the ability to enforce market-level interest rates and deposit yields, while complicating the process for the system and its users
 
-### What's the difference in redemption fees charged between Liquity V1 and Nerite? 
+### What's the difference in redemption fees charged between Liquity V1 and Gyoza? 
 In v2, when borrowers are affected by redemptions, the redemption fee charged to the redeemer stays within the affected Troves instead of being diverted as in Liquity.
 
 So, in Liquity the `borrower_loss = redemption_fee + redeemer_gain`, while in USND it's `borrower_loss = redeemer_gain`.

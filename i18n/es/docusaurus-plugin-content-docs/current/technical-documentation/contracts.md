@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Contratos de Protocolo Nerite
+# Contratos de Protocolo Gyoza
 
 ## Contratos Desplegados Prod
 

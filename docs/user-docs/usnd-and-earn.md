@@ -7,7 +7,7 @@ sidebar_position: 3
 
 ### What is USND?
 
-USND is the USD-pegged stablecoin issued by the Nerite protocol. It's decentralized, overcollateralized, and backed only by a basket of crypto native assets.
+USND is the USD-pegged stablecoin issued by the Gyoza protocol. It's decentralized, overcollateralized, and backed only by a basket of crypto native assets.
 
 USND is a resilient stablecoin by design:
 
@@ -27,7 +27,7 @@ USND is a resilient stablecoin by design:
 
 ### What is USND's peg mechanism?
 
-Nerite uses Liquity V2's market-driven monetary policy through user-set interest rates to maintain USND's peg and to dynamically respond to situations where the token is above or below $1.00.
+Gyoza uses Liquity V2's market-driven monetary policy through user-set interest rates to maintain USND's peg and to dynamically respond to situations where the token is above or below $1.00.
 
 When USND trades above $1, borrowers tend to reduce their rates due to lower redemption risk, making borrowing more and holding USND less attractive. This helps correct the price downwards.
 
@@ -35,7 +35,7 @@ In contrast, when USND trades below $1, arbitrageurs will initiate redemptions t
 <img width="563" height="327" alt="USND Price Chart" src="https://github.com/user-attachments/assets/b78b6905-618a-4a79-aad6-92a8ae12f017" />
 
 
-### How can I earn yield with Nerite?
+### How can I earn yield with Gyoza?
 
 * Stability Pool deposits (Earn): Earn protocol revenue by depositing USND into the various Stability Pools.
 * Protocol Incentivized Liquidity (PIL): Supply liquidity for USND onto the incentivized external DEXes like Bunni and Camelot. 
@@ -60,7 +60,7 @@ There is no lockup period. Users are free to withdraw their USND deposits from t
 
 ### What is the estimated yield on Earn? 
 
-The yield is a representation of the rates borrowers are paying. Since 75% of the borrowers' interest payments go to Earn, the effective yield can exceed the average interest rate paid in a borrow market if less than 75% of the USND supply is deposited to the respective Stability Pool. This yield amplification sets Liquity V2 and Nerite apart from competitors and money markets where lending rates cannot be higher than borrow rates.
+The yield is a representation of the rates borrowers are paying. Since 75% of the borrowers' interest payments go to Earn, the effective yield can exceed the average interest rate paid in a borrow market if less than 75% of the USND supply is deposited to the respective Stability Pool. This yield amplification sets Liquity V2 and Gyoza apart from competitors and money markets where lending rates cannot be higher than borrow rates.
 
 Check historic rates on Liquity V2 [here](https://dune.com/liquity/liquity-v2#interest-rates).
 
@@ -71,7 +71,7 @@ The goals are to:
 * Establish separate borrow markets for different collateral assets with their own market driven interest rates, using the Stability Pool backing to dynamically split redemptions across the available collaterals (link to "Redemption").
 * Compartmentalize the risks as much as possible when depositing to the respective Stability Pools (Earn) by giving the depositors control over which collateral assets they want exposure to in case of liquidations.
 
-### How have Stability Pools evolved in Liquity based systems like Nerite, from Liquity V1 to V2?
+### How have Stability Pools evolved in Liquity based systems like Gyoza, from Liquity V1 to V2?
 
 In V2, the concept of Stability Pools is expanded to accommodate multiple Liquid Staking Tokens (LSTs), Vanguard crypto tokens, as well as ETH as collateral, and keeping the interest revenue and liquidations proceeds inside the respective borrow market (collateral). Each collateral asset thus has its own Stability Pool to distribute yield to USND depositors.
 

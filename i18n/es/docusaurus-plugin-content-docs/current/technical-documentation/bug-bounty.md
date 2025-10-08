@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Liquity's Bug Bounty
 
-Ya está en marcha un programa de recompensas por fallos para los contratos inteligentes subyacentes de Liquity que utiliza Nerite. Pretendemos que los hackers busquen vulnerabilidades de contratos inteligentes en nuestro sistema que puedan llevar a la pérdida de fondos o al bloqueo de componentes.
+Ya está en marcha un programa de recompensas por fallos para los contratos inteligentes subyacentes de Liquity que utiliza Gyoza. Pretendemos que los hackers busquen vulnerabilidades de contratos inteligentes en nuestro sistema que puedan llevar a la pérdida de fondos o al bloqueo de componentes.
 
 Consulte el programa [bug bounty](https://docs.liquity.org/v2-documentation/bug-bounty) de Liquity para obtener la información más actualizada.
 

@@ -10,19 +10,19 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Nerite Protocol Documentation",
-  tagline: "Go Slow.",
+  title: "Gyoza Protocol Documentation",
+  tagline: "The Future of DeFi",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://neriteorg.github.io",
+  url: "https://docs.gyoza.finance",
   // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "NeriteOrg", // Usually your GitHub org/user name.
-  projectName: "neriteorg.github.io", // Usually your repo name.
+  projectName: "gyoza-docs", // Usually your repo name.
   deploymentBranch: "gh-pages",
   trailingSlash: false,
 
@@ -46,7 +46,7 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/NeriteOrg/neriteorg.github.io",
+          editUrl: "https://github.com/NeriteOrg/gyoza-docs/tree/main",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -73,11 +73,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/nerite-social-card.jpg",
+      image: "img/gyoza-social-card.jpg",
       navbar: {
-        title: "Nerite",
+        title: "Gyoza",
         logo: {
-          alt: "Nerite Logo",
+          alt: "Gyoza Logo",
           src: "/img/logo.svg",
         },
         items: [
@@ -92,7 +92,7 @@ const config = {
             position: "left",
           },
           {
-            href: "https://github.com/NeriteOrg/nerite-docs",
+            href: "https://github.com/NeriteOrg/gyoza-docs",
             label: "GitHub",
             position: "right",
           },
@@ -106,11 +106,11 @@ const config = {
             items: [
               {
                 label: "User Docs",
-                to: "http://docs.nerite.org/docs/category/user-docs/",
+                to: "/docs/category/user-docs/",
               },
               {
                 label: "Technical Documentation",
-                to: "http://docs.nerite.org/docs/category/technical-documentation/",
+                to: "/docs/category/technical-documentation/",
               },
             ],
           },
@@ -119,15 +119,15 @@ const config = {
             items: [
               {
                 label: "Github",
-                href: "https://github.com/NeriteOrg/nerite",
+                href: "https://github.com/Gyoza-Finance/Gyoza",
               },
-              {
-                label: "Discord",
-                href: "https://discord.gg/5h3avBYxcn",
-              },
+              // {
+              //   label: "Discord",
+              //   href: "https://discord.gg/5h3avBYxcn",
+              // },
               {
                 label: "X",
-                href: "https://x.com/neriteorg",
+                href: "https://x.com/GyozaFinance",
               },
             ],
           },
@@ -141,7 +141,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Nifty Chess, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Gyoza Finance. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

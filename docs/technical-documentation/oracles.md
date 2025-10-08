@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Oracles
 
-Nerite leverages Api3's OEV (Oracle Extractable Value) oracles as its primary price feed solution. Api3 not only provides Nerite reliable, price data but also generates additional revenue for the protocol through OEV rewards. By capturing value that would otherwise leak to MEV bots and arbitrageurs, Api3's oracles help maximize protocol efficiency while maintaining robust price accuracy.
+Gyoza leverages Api3's OEV (Oracle Extractable Value) oracles as its primary price feed solution. Api3 not only provides Gyoza reliable, price data but also generates additional revenue for the protocol through OEV rewards. By capturing value that would otherwise leak to MEV bots and arbitrageurs, Api3's oracles help maximize protocol efficiency while maintaining robust price accuracy.
 
 To learn more about Api3 check out this website here: https://api3.org/
 
@@ -30,12 +30,12 @@ All oracles have a 25-hour staleness threshold to ensure price feeds remain curr
 
 ## Oracle Providers
 
-- **API3**: Primary oracle provider, which also pays Nerite OEV rewards
+- **API3**: Primary oracle provider, which also pays Gyoza OEV rewards
 - **Chainlink**: Backup oracle provider and used for stETH/USD price feeds
 
 ## Usage
 
-These oracles are used as part of the PriceFeeds in the Nerite protocol for:
+These oracles are used as part of the PriceFeeds in the Gyoza protocol for:
 - Collateral valuation
 - Liquidation calculations
 - Risk management

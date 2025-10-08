@@ -9,7 +9,7 @@ const FeatureList = [
     Svg: require('@site/static/img/blue.png').default,
     description: (
       <>
-        <Translate id="feature.redeemable.desc">Each stablecoin issued by Nerite is redeemable for $1 of collateral in the system.</Translate>
+        <Translate id="feature.redeemable.desc">Each stablecoin issued by Gyoza is redeemable for $1 of collateral in the system.</Translate>
       </>
     ),
   },

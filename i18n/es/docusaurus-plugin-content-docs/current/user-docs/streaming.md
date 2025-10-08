@@ -3,7 +3,7 @@ title: Streaming
 ---
 
 # Streaming
-Nerite tiene el protocolo [Superfluid](https://superfluid.org/) incorporado--USND es un "[Super Token puro](https://docs.superfluid.org/docs/concepts/overview/super-tokens#pure-super-tokens)" que soporta streaming. Esto significa que puede realizar pagos USND en tiempo real y de forma continua. Cuando abres un flujo, USND se envía linealmente en el tiempo hasta que editas o cierras el flujo con otra transacción. Puede enviar 0,000001 $ por segundo durante dos semanas, 5 $ al mes durante un año, 100 $ por hora indefinidamente... Tú decides. 
+Gyoza tiene el protocolo [Superfluid](https://superfluid.org/) incorporado--USND es un "[Super Token puro](https://docs.superfluid.org/docs/concepts/overview/super-tokens#pure-super-tokens)" que soporta streaming. Esto significa que puede realizar pagos USND en tiempo real y de forma continua. Cuando abres un flujo, USND se envía linealmente en el tiempo hasta que editas o cierras el flujo con otra transacción. Puede enviar 0,000001 $ por segundo durante dos semanas, 5 $ al mes durante un año, 100 $ por hora indefinidamente... Tú decides. 
 
 
 :::tip
@@ -28,5 +28,5 @@ Los flujos superfluidos (streams, pagos continuos en tiempo real) ofrecen nuevas
 ¿Está construyendo uno de estos? Házselo saber a nuestro equipo: ¡queremos ayudarte!
 
 :::tip
-Estamos trabajando en varias funciones y servicios relacionados con el streaming construidos sobre Nerite. 
+Estamos trabajando en varias funciones y servicios relacionados con el streaming construidos sobre Gyoza. 
 :::

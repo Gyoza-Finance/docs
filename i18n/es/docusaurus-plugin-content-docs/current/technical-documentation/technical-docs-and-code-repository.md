@@ -8,13 +8,13 @@ Documentación técnica e información sobre repositorios de código para desarr
 
 ## Repositorio principal
 
-https://github.com/NeriteOrg/nerite
+https://github.com/GyozaOrg/nerite
 
-Contiene el núcleo de contratos y librerías para el Protocolo Nerite. También incluye el front-end y todo lo necesario para ejecutar su propia instancia de la aplicación.
+Contiene el núcleo de contratos y librerías para el Protocolo Gyoza. También incluye el front-end y todo lo necesario para ejecutar su propia instancia de la aplicación.
 
 El ReadMe también tiene más información sobre diseño y arquitectura.
 
-## Cambios en las especificaciones técnicas de Nerite desde Liquity V2
+## Cambios en las especificaciones técnicas de Gyoza desde Liquity V2
 
 ### Delegación
 `ActivePool.sol` ahora tiene la función `delegateTokens`. Cualquier token puede ser delegado al rol `delegate`. El papel puede ser actualizado por `governance`, que es el DAO de los titulares de NERI. Cualquiera puede llamar a la función de delegación de forma segura, ya que siempre delega en el papel `delegado`.

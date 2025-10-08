@@ -6,7 +6,7 @@ yUSND stands for Yearn-USND, and is the primary liquid yield bearing version of 
 
 Deposit USND into the yUSND vault directly on the earn page here: https://app.nerite.org/earn/yusnd
 
-Hold yUSND in your wallet to earn yield from the Nerite stability pools, while Yearn optimizes and balances USND deposits across the pools to maximize yield.
+Hold yUSND in your wallet to earn yield from the Gyoza stability pools, while Yearn optimizes and balances USND deposits across the pools to maximize yield.
 
 The yUSND vault has no lockup period, and yUSND can be redeemed for the underlying USND at any time.
 
@@ -28,5 +28,5 @@ ERC-4626 is a vault standard which yUSND and most other yearn vaults use. It has
 ## Brand assets
 Any integration with yUSND has full permission to use the yUSND brand assets here: 
 
-https://github.com/NeriteOrg/assets/tree/main/yUSND
+https://github.com/GyozaOrg/assets/tree/main/yUSND
 
