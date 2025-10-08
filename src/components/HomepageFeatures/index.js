@@ -2,6 +2,7 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 import Translate from '@docusaurus/Translate';
+import GyozaLogo from '../GyozaLogo';
 
 const FeatureList = [
   {
@@ -35,17 +36,10 @@ const FeatureList = [
 
 function Feature({logoColor, title, description}) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <div 
-          className={styles.featureSvg}
-          style={{ 
-            backgroundColor: logoColor,
-            mask: `url(/img/logo.svg) no-repeat center / contain`,
-            WebkitMask: `url(/img/logo.svg) no-repeat center / contain`
-          }}
-        />
-      </div>
+    <div className={clsx('col col--4')} style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+        <div className={styles.featureSvg}>
+          <GyozaLogo color={logoColor} />
+        </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>

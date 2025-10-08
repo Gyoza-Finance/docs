@@ -11,7 +11,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Gyoza Protocol Documentation",
-  tagline: "The Future of DeFi",
+  tagline: "The stablecoin engine for in game economies, backed by gaming assets.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
