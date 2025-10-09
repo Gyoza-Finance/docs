@@ -98,7 +98,7 @@ For example, if only 100K gyUSD were redeemed in the last week, you're comparati
 
 **The price of gyUSD** is the second crucial factor. When it trades above $1, redemptions become unprofitable and should cease. If demand for gyUSD is strong, it could maintain a price above $1 for an extended period.
 
-During such times, you can comfortably reduce the interest rate you're paying without increasing your risk of redemption.
+During such times, you will be able to comfortably reduce the interest rate you're paying without increasing your risk of redemption.
 
 ### What is delegation of interest rates?
 

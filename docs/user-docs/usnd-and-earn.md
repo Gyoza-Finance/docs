@@ -19,7 +19,7 @@ gyUSD is a resilient stablecoin by design:
 ### What are gyUSD's main benefits compared to other stablecoins?
 
 * gyUSD is backed by a variety of LSTs, LRTs, plus ETH, ARB, and COMP.
-* It is always redeemable for the underlying assets, meaning you can always swap it as if worth $1, for the collateral backing it
+* It will always be redeemable for the underlying assets, meaning you will always be able to swap it as if worth $1, for the collateral backing it
 * The contracts used to issue gyUSD are immutable, not allowing any changes and significantly reducing attack vectors
 * gyUSD has native incentives via Protocol Incentivized Liquidity (PIL) directed by governance, ensuring that there will always be sufficient liquidity to handle transactions
 * gyUSD is Arbitrum native, and is built specifically for the fast and cheap Arbitrum network.

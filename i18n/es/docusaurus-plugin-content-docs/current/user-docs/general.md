@@ -6,7 +6,11 @@ sidebar_position: 1
 # General
 
 ### ¿Qué es Gyoza?
-Gyoza es un protocolo de préstamo descentralizado que permite a los usuarios depositar ETH, LST y ARB como garantía y acuñar la moneda estable gyUSD a un tipo de interés elegido por los depositantes. Gyoza es una bifurcación amigable basada en Liquity v2.
+Gyoza es un protocolo de préstamo descentralizado que permitirá a los usuarios depositar ETH, LST y ARB como garantía y acuñar la moneda estable gyUSD a un tipo de interés elegido por los depositantes. Gyoza es una bifurcación amigable basada en Liquity v2.
+
+:::warning Estado del Protocolo
+Gyoza aún no está en funcionamiento. Esta documentación describe la funcionalidad planificada una vez que se lance el protocolo.
+:::
 
 ### Los principales casos de uso de Gyoza son:
 

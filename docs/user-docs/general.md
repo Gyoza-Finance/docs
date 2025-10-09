@@ -6,7 +6,11 @@ sidebar_position: 1
 # General
 
 ### What is Gyoza?
-Gyoza is a decentralized borrowing protocol that lets users deposit ETH, LSTs, and ARB as collateral, and mint the stablecoin gyUSD at an interest rate depositors choose. Gyoza is friendly fork based on Liquity v2.
+Gyoza is a decentralized borrowing protocol that will let users deposit ETH, LSTs, and ARB as collateral, and mint the stablecoin gyUSD at an interest rate depositors choose. Gyoza is friendly fork based on Liquity v2.
+
+:::warning Protocol Status
+Gyoza is not yet live. This documentation describes the planned functionality once the protocol launches.
+:::
 
 ### The main use-cases for Gyoza are:
 

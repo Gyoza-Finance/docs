@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ### What makes borrowing on Gyoza so unique?
 
-Gyoza allows users to borrow the stablecoin gyUSD on their own terms. Borrowers can choose and adjust the rate they are willing to pay for their loans. Borrowers can choose to pay 0%, 5%, 20%, etc.. Borrowers will establish market rates in accordance with their individual risk tolerance without relying on governance or algorithm rate management. Each collateral also has its own respective borrow market which allows room for a market of rates to develop.
+Gyoza will allow users to borrow the stablecoin gyUSD on their own terms. Borrowers will be able to choose and adjust the rate they are willing to pay for their loans. Borrowers will be able to pay 0%, 5%, 20%, etc.. Borrowers will establish market rates in accordance with their individual risk tolerance without relying on governance or algorithm rate management. Each collateral will also have its own respective borrow market which allows room for a market of rates to develop.
 
 All of this makes for a highly capital efficient, secure and decentralized borrowing experience.
 
@@ -138,7 +138,7 @@ Read more about setting your rates, or letting a Rate Manager partner set them f
 
 ### Can I adjust the rate?
 
-Yes, you can always adjust your interest rate at any time. Since you as a user get to set your own interest rate, you have full autonomy over your borrowing costs.
+Yes, you will always be able to adjust your interest rate at any time. Since you as a user will get to set your own interest rate, you will have full autonomy over your borrowing costs.
 
 Note however, that a fee corresponding to 7 days of average interest is charged when opening the loan, as well as on any rate adjustments that happen less than 7 days after the last adjustment. Without it, low-interest rate borrowers could evade redemptions by sandwiching a redemption transaction with both an upward and downward interest rate adjustment, which in turn would unduly direct the redemption against higher-interest borrowers.
 

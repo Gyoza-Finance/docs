@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ### ¿Qué hace que los préstamos en Gyoza sean tan únicos?
 
-Gyoza permite a los usuarios pedir prestada la moneda estable gyUSD en sus propios términos. Los prestatarios pueden elegir y ajustar la tasa que están dispuestos a pagar por sus préstamos. Los prestatarios pueden elegir pagar un 0 %, un 5 %, un 20 %, etc. Los prestatarios establecerán las tasas de mercado de acuerdo con su tolerancia al riesgo individual, sin depender de la gobernanza ni de la gestión algorítmica de las tasas. Cada garantía también tiene su propio mercado de préstamos, lo que permite que se desarrolle un mercado de tasas.
+Gyoza permitirá a los usuarios pedir prestada la moneda estable gyUSD en sus propios términos. Los prestatarios podrán elegir y ajustar la tasa que están dispuestos a pagar por sus préstamos. Los prestatarios podrán elegir pagar un 0 %, un 5 %, un 20 %, etc. Los prestatarios establecerán las tasas de mercado de acuerdo con su tolerancia al riesgo individual, sin depender de la gobernanza ni de la gestión algorítmica de las tasas. Cada garantía también tendrá su propio mercado de préstamos, lo que permite que se desarrolle un mercado de tasas.
 
 Todo esto da lugar a una experiencia de préstamo altamente eficiente en términos de capital, segura y descentralizada.
 
@@ -30,13 +30,13 @@ n1(«Crear Trove»)  -->  n2
 A  --Depositar ARB-->  n1
 ```
 
-Cada Trove le permite gestionar un préstamo, ajustando los valores de la garantía y la deuda según sea necesario, así como establecer su propia tasa de interés. La gestión de Trove puede delegarse opcionalmente a un «gestor» al que se le otorgan permisos especiales. 
+Cada Trove le permitirá gestionar un préstamo, ajustando los valores de la garantía y la deuda según sea necesario, así como establecer su propia tasa de interés. La gestión de Trove podrá delegarse opcionalmente a un «gestor» al que se le otorgarán permisos especiales. 
 
 Los Troves también son NFT (tokens no fungibles) transferibles y se pueden encontrar en la cartera del propietario. Tenga cuidado con esto: al transferir el NFT también se transfiere la propiedad de la posición.
 
-### ¿Qué tipos de garantías puedo utilizar en Gyoza?
+### ¿Qué tipos de garantías podré utilizar en Gyoza?
 
-Gyoza trabaja con las siguientes diez garantías:
+Gyoza trabajará con las siguientes diez garantías:
 - WETH (Ethereum envuelto)
 - wstETH (Lido ETH envuelto)
 - rETH (Rocket pool ETH)
