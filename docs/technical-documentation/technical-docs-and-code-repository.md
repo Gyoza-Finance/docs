@@ -8,7 +8,7 @@ Technical documentation and code repository information for developers.
 
 ## Primary Core Repository
 
-https://github.com/GyozaOrg/nerite
+https://github.com/Gyoza-Finance/Gyoza
 
 Contains the core contracts and libraries for the Gyoza Protocol. Also includes the front end and everything you need to run your own instance of the app.
 

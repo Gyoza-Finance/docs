@@ -8,7 +8,7 @@ Documentación técnica e información sobre repositorios de código para desarr
 
 ## Repositorio principal
 
-https://github.com/GyozaOrg/nerite
+https://github.com/Gyoza-Finance/Gyoza
 
 Contiene el núcleo de contratos y librerías para el Protocolo Gyoza. También incluye el front-end y todo lo necesario para ejecutar su propia instancia de la aplicación.
 
