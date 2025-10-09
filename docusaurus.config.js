@@ -21,8 +21,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "NeriteOrg", // Usually your GitHub org/user name.
-  projectName: "gyoza-docs", // Usually your repo name.
+  organizationName: "Gyoza-Finance", // Usually your GitHub org/user name.
+  projectName: "docs", // Usually your repo name.
   deploymentBranch: "gh-pages",
   trailingSlash: false,
 
@@ -46,7 +46,7 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/NeriteOrg/gyoza-docs/tree/main",
+          editUrl: "https://github.com/Gyoza-Finance/docs/tree/main",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -92,7 +92,7 @@ const config = {
             position: "left",
           },
           {
-            href: "https://github.com/NeriteOrg/gyoza-docs",
+            href: "https://github.com/Gyoza-Finance/docs",
             label: "GitHub",
             position: "right",
           },
