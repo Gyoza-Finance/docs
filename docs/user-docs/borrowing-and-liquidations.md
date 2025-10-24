@@ -114,7 +114,7 @@ The `0.001 WETH` is funded by a [refundable gas deposit](borrowing-and-liquidati
 
 That depends on the collateral type you will use.&#x20;
 
-ETH, wstETH, and rETH have a LTV of 90.91% while other assets have other LTVs. Check out the full [Collateral Parameters](https://docs.nerite.org/docs/technical-documentation/collaterals) chart for all details on current settings.
+ETH, wstETH, and rETH have a LTV of 90.91% while other assets have other LTVs. Check out the full [Collateral Parameters](https://docs.gyoza.finance/docs/technical-documentation/collaterals) chart for all details on current settings.
 
 ### What is the refundable gas deposit?
 
